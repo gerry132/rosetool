@@ -1,0 +1,458 @@
+
+
+body, html {
+  height: 100%;
+}
+
+.bground {
+  background-image: url(/static/mainapp/logo6.jpg);
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+ul {
+    list-style-type: none;
+    float:left;
+    background-color: white;
+    width:180px;
+    height:100%;
+    display: block;
+    margin: 0;
+    padding:10px;
+  }
+
+  ul a {
+    
+    color:whitesmoke;
+  }
+
+  ul a:hover{
+    
+    color: blueviolet;
+  }
+
+  ul li {
+    padding-bottom: 10px;
+  }
+
+.dropbtn  {
+  border:none;
+  padding-top:20%;
+  display: block;
+  margin:0;
+  background: url('/static/mainapp/psy2.jpg');
+  border-radius: 50%;
+  height: 140px;
+  font-family: monospace;
+  width: 140px;
+  font-size: 17px;
+  color: whitesmoke;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+    flex-direction: column;
+    /* center flex items horizontally */
+
+}
+
+.dropbtn:hover{
+  display: block;
+      -webkit-animation-name: wobble;
+      animation-name: wobble;
+      -webkit-animation-duration: 1s;
+      animation-duration: 1s;
+      -webkit-animation-timing-function: ease-in-out;
+      animation-timing-function: ease-in-out;
+      -webkit-animation-iteration-count: 1;
+      animation-iteration-count: 1;
+      border-radius: 50%;
+    margin: 0;
+    opacity: 0.5;
+    display: flex;
+    width:170px;
+    height:170px;
+    font-size: 17px;
+    /* place items in column */
+    flex-direction: column;
+    /* center flex items horizontally */
+    align-items: center;
+    /* center all content vertically */
+    justify-content: center;
+    text-align: center;
+    font-weight: 700;
+    color: blue;
+    mix-blend-mode: hard-light;
+    
+}
+
+ .dropdown {
+  display: inline-flex;
+  position: relative;
+  padding: 0px;
+  background: none;
+ 
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: inline-flex;
+  position: static;
+  background: none;
+
+ 
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    display: inline-flex;
+    background: url(/static/mainapp/psy2.jpg);
+    margin: 0;
+    width:130px;
+    height:130px;
+    font-size: 15px;
+    border-radius: 50%;
+    /* place items in column */
+    flex-direction: column;
+    /* center flex items horizontally */
+    align-items: center;
+    /* center all content vertically */
+    justify-content: center;
+    text-align: center;
+    color: whitesmoke;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+  display: inline-flex;
+      -webkit-animation-name: wobble;
+      animation-name: wobble;
+      -webkit-animation-duration: 1s;
+      animation-duration: 1s;
+      -webkit-animation-timing-function: ease-in-out;
+      animation-timing-function: ease-in-out;
+      -webkit-animation-iteration-count: 1;
+      animation-iteration-count: 1;
+      border-radius: 50%;
+    margin: 0;
+    opacity: 0.5;
+    display: flex;
+    width:170px;
+    height:170px;
+    font-size: 17px;
+    /* place items in column */
+    flex-direction: column;
+    /* center flex items horizontally */
+    align-items: center;
+    /* center all content vertically */
+    justify-content: center;
+    text-align: center;
+    font-weight: 700;
+    color: whitesmoke;
+    }
+
+
+.dropdown:hover .dropdown-content {display: inline-flex;}
+
+
+
+@-webkit-keyframes wobble {
+  16.65% {
+    -webkit-transform: translateY(8px);
+    transform: translateY(8px);
+  }
+  33.3% {
+    -webkit-transform: translateY(-6px);
+    transform: translateY(-6px);
+  }
+  49.95% {
+    -webkit-transform: translateY(4px);
+    transform: translateY(4px);
+  }
+  66.6% {
+    -webkit-transform: translateY(-2px);
+    transform: translateY(-2px);
+  }
+  83.25% {
+    -webkit-transform: translateY(1px);
+    transform: translateY(1px);
+  }
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+
+@keyframes wobble {
+  16.65% {
+    -webkit-transform: translateY(8px);
+    -ms-transform: translateY(8px);
+    transform: translateY(8px);
+  }
+  33.3% {
+    -webkit-transform: translateY(-6px);
+    -ms-transform: translateY(-6px);
+    transform: translateY(-6px);
+  }
+  49.95% {
+    -webkit-transform: translateY(4px);
+    -ms-transform: translateY(4px);
+    transform: translateY(4px);
+  }
+  66.6% {
+    -webkit-transform: translateY(-2px);
+    -ms-transform: translateY(-2px);
+    transform: translateY(-2px);
+  }
+  83.25% {
+    -webkit-transform: translateY(1px);
+    -ms-transform: translateY(1px);
+    transform: translateY(1px);
+  }
+  100% {
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+
+.wobble {
+  display: inline-block;
+  -webkit-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+}
+
+.navbar{
+  float:left;
+  padding:0;
+  background-color: white;
+}
+footer{
+  display:block;
+  background-image: url('/static/mainapp/back.jpg');
+  bottom: 0;
+  left:0;
+  float:left;
+  width:100%;
+  text-align: center;
+  color: white;
+
+}
+
+.row{
+  padding:0;
+  margin-top: 20px;
+}
+
+
+.header-b {
+  margin-left: 220px;
+  height:275px;
+  width: 100%;
+  
+
+}
+
+#blog-img{
+  background-image: url(/static/mainapp/BLOGLOG.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 250px;
+
+}
+
+
+.card-container {
+  float:left;
+  display: flex;
+  opacity: 5;
+  background-repeat: no-repeat;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  max-width: 496px;
+  margin: 0 auto;
+  padding: 0px;
+  }
+
+.card{
+  height:25%; 
+  width: 100%;
+  padding:0px;
+  margin:7px;
+  overflow: hidden;
+  display: block;
+
+}
+
+.pic1{
+  
+    z-index: 100;
+    width: 400px;
+    height: 100%;
+    background-size: 100% 100%;
+    background-image: url(/static/mainapp/indu.jpg);
+
+}
+
+.pic2{
+  
+  z-index: 100;
+  width: 400px;
+  height: 100%;
+  background-image: url(/static/mainapp/ru.jpg);
+  background-size: 100% 100%;
+  
+}
+
+
+
+.pic3{
+  
+  z-index: 100;
+  width: 400px;
+  height: 200px;
+  background-size: 100% 100%;
+  background-image: url(/static/mainapp/bau.jpg);
+
+}
+
+
+.pic4{
+  
+  z-index: 100;
+  width: 400px;
+  height: 200px;
+  background-size: 100% 100%;
+  background-image: url(/static/mainapp/newty.jpg);
+
+}
+
+
+.pic5{
+  
+  z-index: 100;
+  width: 400px;
+  height: 200px;
+  background-size: 100% 100%;
+
+
+}
+
+
+
+.side {
+ 
+  position: absolute;
+  height: 200px;
+  width: 200px;
+  margin-left: 400px;
+ }
+
+  .side H2 {
+    z-index: 3;
+    color: #333;
+    opacity: 0.7;
+    position: absolute;
+    font-size: 20px !important;
+    font-family: monospace;
+    letter-spacing: 1px;
+    writing-mode: horizontal-tb;
+    -webkit-transition: all 0.2s ;}
+
+  .fa-arrow-right {
+    z-index: 100;
+    position: absolute;
+    right: 75px;
+    bottom: 25px;
+    font-size: 40px;
+    cursor: pointer;
+  }
+
+  .button2 {
+    z-index: 0;
+    position: absolute;
+    right: 14px;
+    bottom: 14px;
+    width: 50px;
+    height: 50px;
+    margin-right: 30px;
+    margin-bottom: 20px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: orange;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    outline:none;
+    transition: all 0.3s ease;
+    mix-blend-mode: hard-light;
+  }
+
+  .button2:hover{
+    z-index: 0;
+    transform: scale(10);
+  filter: invert(1);
+
+  }
+
+  i {
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    margin-top: 20px;
+    display: inline-block;
+    align-items: center;
+    padding: 3px;
+    will-change: transform;
+    -webkit-transform: scale(0.1);
+    transform: scale(0.1);
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+  }
+  
+  .right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+  }
+  
+  article, aside, nav {display: block;}
+  article, aside {float: left;}
+  article {
+    width: 700px;
+  margin-top: 10px;
+  margin-left:8px;
+}
+
+  nav {
+    width: 250px;
+    margin-top: 10px;
+ 
+  }
+
+  aside{
+    margin-top: 20px;
+    margin-left: 20px;
+   
+
+  }
+
+  aside a {
+    color: #333;
+    opacity: 0.7;
+  }
+
+  h1{
+    text-align: center;
+    background-image: url(/static/mainapp/hea.jpg);
+    margin-bottom: 10px;
+    font-family: monospace;
+    font-style: bold;
+    opacity: 0.5;
+     color:rgb(31, 143, 235);
+  }
