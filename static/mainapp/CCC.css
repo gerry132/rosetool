@@ -1,50 +1,8 @@
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-size: 100%;
-  font: inherit;
-  vertical-align: baseline;
-}
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-  display: block;
-}
-body {
-  line-height: 1;
-}
-ol, ul {
-  list-style: none;
-}
-blockquote, q {
-  quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-  content: '';
-  content: none;
-}
-table {
-  border-collapse: collapse;
-  border-spacing: 0;
-}
 
 body, html {
   height: 100%;
+  overflow-x: hidden;
 }
 
 .bground {
@@ -81,15 +39,43 @@ ul {
   }
 
 .dropbtn  {
+  border-radius: 50%;
+
+  background: url('/static/mainapp/psy2.jpg');
+
+    /* center flex items horizontally */
+       margin: 0;
+
+    display: flex;
+    width:10em;
+    height:10em;
+    font-size: 17px;
+    font-family: monospace;
+    /* place items in column */
+    flex-direction: column;
+    color: whitesmoke;
+    /* center flex items horizontally */
+    align-items: center;
+    /* center all content vertically */
+    justify-content: center;
+    text-align: center;
+    font-weight: 700;
+
+
+    
+
+}
+
+.ddropbtn  {
   border:none;
-  padding:40%;
+  padding-top:20%;
   display: block;
   margin:0;
   background: url('/static/mainapp/psy2.jpg');
   border-radius: 50%;
-  height: 140px;
+  height: 10em;
   font-family: monospace;
-  width: 140px;
+  width: 10em;
   font-size: 17px;
   color: whitesmoke;
   align-items: center;
@@ -100,7 +86,6 @@ ul {
     /* center flex items horizontally */
 
 }
-
 .dropbtn:hover{
   display: block;
       -webkit-animation-name: wobble;
@@ -151,7 +136,7 @@ ul {
 /* Links inside the dropdown */
 .dropdown-content a {
     display: inline-flex;
-    background: url({{ STATIC_URL }}psy2.jpg);
+    background: url(/static/mainapp/psy2.jpg);
     margin: 0;
     width:130px;
     height:130px;
@@ -270,6 +255,7 @@ ul {
 }
 
 .navbar{
+  position: fixed !important;
   float:left;
   padding:0;
   background-color: white;
@@ -295,17 +281,17 @@ footer{
 .header-b {
   margin-left: 220px;
   height:275px;
-  width:1000px;
+  width: 100%;
   
 
 }
 
 #blog-img{
-  background-image: url(/static/mainapp/blogLOG.jpg);
+  background-image: url(/static/mainapp/BLOGLOG.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  width: 1000px;
+  width: 100%;
   height: 250px;
 
 }
@@ -318,25 +304,43 @@ footer{
   background-repeat: no-repeat;
   flex-wrap: wrap;
   justify-content: flex-start;
-  max-width: 496px;
+  max-width: 95% !important;
   margin: 0 auto;
   padding: 0px;
+  margin-left: 20%;
   }
 
 .card{
-  height:200px; 
-  width: 600px;
+  height: 50%; 
+  width: 70%;
   padding:0px;
   margin:7px;
   overflow: hidden;
+  display: block;
 
 }
 
+.innerPic {
+  padding-top: 2%;
+  padding-left: 2%;
+ z-index: 100;
+    width: 50%;
+    height: 100%;
+    background-size: 100% 100%;
+    color: #333;
+    opacity: 0.7;
+    text-align: left;
+    font-size: 20px !important;
+    font-family: monospace;
+    letter-spacing: 1px;
+    writing-mode: horizontal-tb;
+    -webkit-transition: all 0.2s ;
+}
 .pic1{
   
     z-index: 100;
-    width: 400px;
-    height: 200px;
+    width: 50%;
+    height: 100%;
     background-size: 100% 100%;
     background-image: url(/static/mainapp/indu.jpg);
 
@@ -345,8 +349,8 @@ footer{
 .pic2{
   
   z-index: 100;
-  width: 400px;
-  height: 200px;
+  width: 50%;
+  height: 100%;
   background-image: url(/static/mainapp/ru.jpg);
   background-size: 100% 100%;
   
@@ -357,8 +361,8 @@ footer{
 .pic3{
   
   z-index: 100;
-  width: 400px;
-  height: 200px;
+  width: 50%;
+  height: 100%;
   background-size: 100% 100%;
   background-image: url(/static/mainapp/bau.jpg);
 
@@ -368,10 +372,10 @@ footer{
 .pic4{
   
   z-index: 100;
-  width: 400px;
-  height: 200px;
+  width: 50%;
+  height: 100%;
   background-size: 100% 100%;
-  background-image: url(newty.jpg);
+  background-image: url(/static/mainapp/newty.jpg);
 
 }
 
@@ -379,10 +383,9 @@ footer{
 .pic5{
   
   z-index: 100;
-  width: 400px;
-  height: 200px;
+  width: 50%;
+  height: 100%;
   background-size: 100% 100%;
-
 
 }
 
@@ -393,7 +396,7 @@ footer{
   position: absolute;
   height: 200px;
   width: 200px;
-  margin-left: 400px;
+
  }
 
   .side H2 {
@@ -491,7 +494,7 @@ footer{
 
   h1{
     text-align: center;
-    background-image: url(hea.jpg);
+    background-image: url(/static/mainapp/hea.jpg);
     margin-bottom: 10px;
     font-family: monospace;
     font-style: bold;

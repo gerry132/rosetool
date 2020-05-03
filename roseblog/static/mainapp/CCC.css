@@ -43,9 +43,9 @@ ul {
   margin:0;
   background: url('/static/mainapp/psy2.jpg');
   border-radius: 50%;
-  height: 140px;
+  height: 10em;
   font-family: monospace;
-  width: 140px;
+  width: 10em;
   font-size: 17px;
   color: whitesmoke;
   align-items: center;
