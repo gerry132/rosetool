@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="eng">
+    <head>
+        {% load static %}
+        <link rel="stylesheet" type="text/css" href="{% static 'mainapp/CCC.css' %}" />
+        <title>L'Appeal Du Vide</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content ="width=device-width, initial-scale=1">
+    
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+</head>
+
+
+     <div class = navbar>
+    
+        <ul id = "menu">
+     <li><a href="/" ><button class="dropbtn">Home</button> </a> </li>
+
+      <li> <a href="/design_report" ><button class="dropbtn">Design Report</button> </a></li> 
+
+     <li> <a href="/personal_development"><button class="dropbtn">Personal Development</button> </a></li> 
+
+      <li> <a href="/presentation"><button class="dropbtn">Presentation</button></a></li> 
+    
+    
+    </ul>
+
+</div>
+
+    <body>
+        <main><div class="header-b"> <div id="psa">
+      
+        </div>
+      </div></main>
+
+
+      <article id = "bau">
+          <h1>Personal Development Plan</h1>
+          <br>
+
+        <h1>Week 1: </h1>
+<div >
+        <ul> <h2 id = goals >Goals</h2>
+
+       <li>Download Visual Studio</li>
+        <li>Revise HTML & CSS</li>
+        <li>Draw up a website layout plan</li>
+    </ul> </div>
+
+        <p>My first week mainly comprised of reviewing both briefs and deciding which direction to take. Upon learning that we will be required to create a wordpress site, I considered building a website from scrath myself as it allows more
+            freedom of creativity and I also want to challenge myself. I firstly downloaded Microsoft Visual Studio and began to create some HTML documents and play around just to get a feel if it is something I can undertake.
+
+            <p>From reading the brief for my individual project I knew straight away I wanted to do the grey area project option. I live on Railway street on the northside of the city, the area is mainly comprised of office, apartment blocks and delapadated buildings and I always thought that something was needed to brighten up the area. </p>
+
+        </p>
+        <h1>Week 2</h1>
+        <p>After reviewing the brief for Unit 1 & 2: Professional Development & Contextual Studies, I made the decision to build
+            my own website. Before embarking on this I decided to look at a few online tutorials on HTML and CSS as I it had been a 
+        while since I worked with either. In 2017 I completed a Higher Diploma in Computer Science and developed a ecommerce webiste.
+        After a few bumps in the road at the end of this week I had the foundations of my website although I am still uncertain if I can complete it and 
+        make a live version. </p>
+
+        <P>For my individual project I decided to try to digitalise the image using Illustrator, here is the result:</P>
+
+
+        <h1>Week 3</h1>
+        <p>I had a plan in my head on how I wanted my website to look and I wanted to use vibrant colours and somewhat psychedllic patterns. 
+            I never created visuals of this sort in Photoshop or Illustrator previously so I watched a few Youtube tutorials to achieve the design I wanted.
+        </p>
+
+        <p>The first visual I created was for my button icons. I followed this tutorial: </p>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/5SJCMMKBQ0A" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <P>This was quite fun to create and I experimented with the colouration a bit and it was very easy to achieve. I used the cloud effect and liquify tool to get the swirlling pattern.</P>
+        
+        <p>This week I also took one of my concept sketches and experimented in  Ilustrator</p>
+
+        <figure style = "float: left; width:50%; height:50%">
+            <img src = "/static/mainapp/mural1.jpg" width="width" height="height" 
+            style="padding-bottom:1.0em; width: 100%; height:100%;" >
+            <figcaption style= "font-style: italic; font-size: smaller;">First iteration</figcaption></figure> <p>After creating this I didn't feel completely happy with it and I now think I should try to use Photoshop. I own a Wacom  tablet but haven't used it yet, My plan for next week is to
+            watch a few tutorials on how to paint in Photoshop. This first iteration is not complete but I may abandon this format and try to create something with more detail.
+        </p>
+
+        <h1 style = "clear:both">Week 4</h1>
+        <p>In terms of website development this was a challenging week, I have never published a website before and I knew it would be tricky to push the changes to the live version. 
+            I used Django website development framework in Python, heres a link to the source code:
+
+        </p>
+        <P>After researching into creating a doamin name and hosting a site I found that AWS were providing the most cost efffective and easy to use service.</P>
+        <p>I purchase the domain name using route 53 on AWS and the site is deployed using elasticbeanstalk on AWS. Here is a link 
+            to the Route 53 documentation:
+       <a href = "https://aws.amazon.com/route53/"> Amazon Route 53 </a>
+
+        <p>Upon viewing the live version of the site I noticed there were a lot of formatting issues due to some of the pixelated values I had used so I basically had to redo many of my CSS formats.</p>
+        <p>Although my website is now live it is in now way presentable and I realize I have quite a lot a work ahead of me :/</p>
+
+        <p>To gain a better understanding of the area I want to hypothetically place my mural design. 
+            I took a walk around the area and took some photos of the existing graffiti in the area, 
+            I also wanted to narrow down a particular wall I could place my design. Here are some of the photos I took: </p>
+
+            <figure style = "float:left; width:30%; height:30%">
+                <img src = "/static/mainapp/graf1.jpg" style="display: block; width:90%; height:90%; ">
+                <figcaption style= "font-style: italic; font-size: smaller;">Graffiti near Foley St.</figcaption></figure>
+        
+                <figure style = "float:left; width:30%; height:30%">
+                    <img src = "/static/mainapp/graf3.jpg" style="display: block; width:90%; height:90%; ">
+                    <figcaption style= "font-style: italic; font-size: smaller;">Graffiti at back of Magdalene Laundry, Railway St.</figcaption></figure>
+                   
+                    <figure style = "float:left; width:30%; height:30%">
+                        <img src = "/static/mainapp/fol.jpg" style="display: block; width:90%; height:90%; ">
+                        <figcaption style= "font-style: italic; font-size: smaller;">Blank wall on Foley St.</figcaption></figure>
+    
+    <p style ="clear:both">I also conducted additional research into the area. Using photoshop and after watching a few tutorials on Youtube I began to draw up my two concepts in Photoshop.
+      These two pieces are my first attempt at painting in Photoshop with a tablet and I was quite happy with the outcome.</p>
+<div>
+      <figure style = "float:left; width:50%; height:50%">
+        <img src = "/static/mainapp/c1.jpg" style="display: block; width:90%; height:90%; ">
+        <figcaption style= "font-style: italic; font-size: smaller;">First Concept: Solace</figcaption></figure>
+
+        <figure style = "float:left; width:50%; height:50%">
+            <img src = "/static/mainapp/c2.jpg" style="display: block; width:90%; height:90%; ">
+            <figcaption style= "font-style: italic; font-size: smaller;">Second Concept: Nighttown</figcaption></figure>
+        </div>
+           
+
+   
+
+
+        <h1 style = "clear: both;">Week 5</h1>
+        <p>After recieving feedback on my two concepts for my individual project I decided to make some minor adjustments to the images. </p>
+        <p>I was fairly happy with how they looked but even so I decided to explore additional concepts. I created a few more thumbnail sketches
+            in my sketchbook. I also explored tutorials available on Youtube to possibly learn some new painting techniques. In my search I discovered a website
+            called Domestika which offer a wide variety of creative courses. I decided to purchase a few as they are on special offer and hope to
+            get time in my last few weeks to delve into them but unfortunately may not be able to due to end of term soon approaching.
+        </p>
+        
+        <h1>Week 6</h1>
+        <p>From exploring new ideas last week I decided to draw up another concept in Photoshop.</p>
+        <figure style = "float:left; width:50%; height:50%">
+            <img src = "/static/mainapp/c3.jpg" style="display: block; width:90%; height:90%; ">
+            <figcaption style= "font-style: italic; font-size: smaller;">Third Concept</figcaption></figure>
+        <p>This week I am mainly focusing on writing up my reports and further developing my website</p>
+        <p>I have decided to write my design report on April Greiman and began to do some research into her work</p>
+        <p>I opened my Behance account and posted for the first time</p>
+
+        <p>This week I also began to review my social media presence, I have a Instagram profile where I used to regularly post 
+            photos I took. Around about the time I started my course I will admit I got a bit too busy to post and didn't really have 
+            time for personal projects like I use to. I currently have 328 followers and I think I could be an opportunity to promote some 
+            of my graphic design work. With this in mind I recently posted up some of my recent work relating to the course and feedback was good.
+        </p>
+
+        <div id="pixlee_container"></div><script type="text/javascript">window.PixleeAsyncInit = function() {Pixlee.init({apiKey:'mcnBJt0xhUwZmxjosSA9'});Pixlee.addSimpleWidget({widgetId:'27382'});};</script><script src="//instafeed.assets.pxlecdn.com/assets/pixlee_widget_1_0_0.js"></script>
+    <p>I opened my Behance account and posted for the first time</p>
+        
+
+
+
+
+<h1>References:</h1>
+
+
+    </article>
+
+    <aside>
+        <h2 >Links</h2>
+        <nav>
+          <ul>
+            <li><a href="/roles"><button class="dropbtn2">Roles and Skills</button> </a></li>
+            <li><a href="/psa"><button class="dropbtn2">Professional Skills Audit</button> </a></li>
+            <li><a href="/diary"><button class="dropbtn2">Personal Development Plan</button> </a></li>
+
+          </ul>
+      </nav>
+      </aside>
+</Body>
+</html>

@@ -1,30 +1,29 @@
 <!DOCTYPE html>
 <html lang="eng">
     <head>
-        <link rel="stylesheet" type="text/css" href="CCC.css" />
-
-        <script src="test.js"></script> 
+        {% load static %}
+        <link rel="stylesheet" type="text/css" href="{% static 'mainapp/CCC.css' %}" />
         <title>L'Appeal Du Vide</title>
         <meta charset="utf-8">
         <meta name="viewport" content ="width=device-width, initial-scale=1">
-        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>    
+    
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 </head>
 
 
      <div class = navbar>
     
         <ul id = "menu">
-     <li><a href="home.html" ><button class="dropbtn">Home</button> </a> </li>
+     <li><a href="/" ><button class="dropbtn">Home</button> </a> </li>
 
-      <li> <a href="DesignReport.html" ><button class="dropbtn">Design Report</button> </a></li> 
+      <li> <a href="/design_report" ><button class="dropbtn">Design Report</button> </a></li> 
 
-     <li> <a href="PD.html"><button class="dropbtn">Personal Development</button> </a></li> 
+     <li> <a href="/personal_development"><button class="dropbtn">Personal Development</button> </a></li> 
 
-      <li> <a href="Presentation.html"><button class="dropbtn">Presentation</button></a></li> 
+      <li> <a href="/presentation"><button class="dropbtn">Presentation</button></a></li> 
     
     
     </ul>
@@ -32,34 +31,56 @@
 </div>
 
     <body>
-<div class = "page-contianer">
-    <main><div class="header-img">
-        <h1>The New Typography</h1>
-    </div> </main>
+        <main><div class="header-b"> <div id="blog-img-bau">
+      
+        </div>
+      </div></main>
 
-    <article>
- <p> The New Typography </p>
+    <article id = "bau">
+<h1>Week 4: The International Typographic Style</h1>
+<p></p>
+<p></p>
+<p></p>
+
+ 
+
+ 
+
+<figure style = "float:right; width:40%; height:40%">
+<img src = "/static/mainapp/" width="width" height="height" 
+style="padding-bottom:0.5em; width: 80%; height:80%;" /><figcaption style= "font-style: italic; font-size: smaller;">Fig 5: Example of Victorian design</figcaption>
+</figure>
 
 
-    </article>
+<figure>
+<img src = "/static/mainapp/" style="display: block; width:50%; height:50%; ">
+<figcaption style= "font-style: italic; font-size: smaller;">Fig 7: An example of modern adaption</figcaption></figure>
+
+<br>
+<br>
+<h1>References</h1>
+
+
+<h1>Image Credits</h1>
+
+</article>
 
 
     <aside>
-        <h2>Blog Links</h2>
+        <h2 >Blog Links</h2>
         <nav>
           <ul>
-            <li><a href="indus.html">Week 1: Industrial Revolution</a></li>
-            <li><a href="Russia.html">Week 2: Russian Constructivism</a></li>
-            <li><a href="Bauhaus.html">Week 3: Bauhaus</a></li>
-            <li><a href="Newtyp.html">Week 4: New Typography</a></li>
+            <li><a href="/indus">Week 1: Industrial Revolution</a></li>
+            <li><a href="/russia">Week 2: Russian Constructivism</a></li>
+            <li><a href="/bauhaus">Week 3: Bauhaus</a></li>
+            <li><a href="/newtyp">Week 4: New Typography</a></li>
             
-            <li><a href="NEWYork.html">Week 5: New York</a></li>
-          
+            <li><a href="/newyork">Week 5: New York</a></li>
           </ul>
       </nav>
       </aside>
 
-   
+     
 </body>
 
 

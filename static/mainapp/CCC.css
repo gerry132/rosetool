@@ -39,16 +39,16 @@ ul {
   }
 
 .dropbtn  {
+  border:none;
   border-radius: 50%;
-
   background: url('/static/mainapp/psy2.jpg');
 
     /* center flex items horizontally */
        margin: 0;
 
     display: flex;
-    width:10em;
-    height:10em;
+    width:8.5em;
+    height:8.5em;
     font-size: 17px;
     font-family: monospace;
     /* place items in column */
@@ -59,7 +59,7 @@ ul {
     /* center all content vertically */
     justify-content: center;
     text-align: center;
-    font-weight: 700;
+    font-weight: 450;
 
 
     
@@ -260,15 +260,19 @@ ul {
   padding:0;
   background-color: white;
 }
+
+
 footer{
-  display:block;
+
   background-image: url('/static/mainapp/back.jpg');
-  bottom: 0;
-  left:0;
-  float:left;
-  width:100%;
   text-align: center;
-  color: white;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: .5rem;
+
+  
 
 }
 
@@ -290,16 +294,39 @@ footer{
   background-image: url(/static/mainapp/BLOGLOG.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  margin-left: 17%;
   background-position: center;
-  width: 100%;
+  width: 75%;
+  height: 250px;
+
+}
+
+#blog-img-bau{
+  background-image: url(/static/mainapp/BLOGLOG.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-left: 0%;
+  background-position: center;
+  width: 75%;
   height: 250px;
 
 }
 
 
+#pres-img{
+  background-image: url(/static/mainapp/presentationlogo.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-left: 15%;
+  background-position: center;
+  width: 75%;
+  height: 250px;
+
+}
+
 .card-container {
   float:left;
-  display: flex;
+  display: block;
   opacity: 5;
   background-repeat: no-repeat;
   flex-wrap: wrap;
@@ -311,13 +338,11 @@ footer{
   }
 
 .card{
-  height: 50%; 
-  width: 70%;
-  padding:0px;
+  height: 40%; 
+  width: 55%;
   margin:7px;
   overflow: hidden;
   display: block;
-
 }
 
 .innerPic {
@@ -330,7 +355,7 @@ footer{
     color: #333;
     opacity: 0.7;
     text-align: left;
-    font-size: 20px !important;
+    font-size: 10px !important;
     font-family: monospace;
     letter-spacing: 1px;
     writing-mode: horizontal-tb;
@@ -467,11 +492,24 @@ footer{
   }
   
   article, aside, nav {display: block;}
-  article, aside {float: left;}
+  article, aside 
+  {float: left;
+  }
   article {
     width: 700px;
+    
   margin-top: 10px;
   margin-left:8px;
+}
+
+aside {
+      font-family: monospace;
+      font-weight: 600;
+      color: rgb(228, 39, 196);
+}
+
+#bau{
+  margin-left: 220px;
 }
 
   nav {
@@ -498,6 +536,81 @@ footer{
     margin-bottom: 10px;
     font-family: monospace;
     font-style: bold;
+    font-weight: 1500;
     opacity: 0.5;
      color:rgb(31, 143, 235);
+  }
+
+  #goals{
+    background-blend-mode: color-dodge;
+    color: violet;
+    font-weight: 600;
+
+    font-family: monospace;
+    filter: saturate(5);
+  }
+
+
+
+  #psa{
+    background-image: url(/static/mainapp/psa5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 0%;
+    background-position: center;
+    width: 75%;
+    height: 250px;
+  }
+
+  h2{
+
+    
+
+    color: rgb(255, 70, 209);
+    font-weight: 2000;
+
+  }
+
+  
+  h3{
+    font-family: monospace;
+    color: rgb(31, 184, 255);
+    font-weight: 600;
+    font-style: italic;
+    font-size: 5px
+
+    
+  }
+
+
+  .btn-liquid {
+    display: inline-block;
+    position: relative;
+    width: 240px;
+    height: 60px;
+  
+    border-radius: 27px;
+  
+    color: #fff;
+    font: 700 14px/60px "Droid Sans", sans-serif;
+    letter-spacing: 0.05em;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+  
+  .btn-liquid .inner {
+    position: relative;
+  
+    z-index: 2;
+  }
+  
+  .btn-liquid canvas {
+    position: absolute;
+    top: -50px;
+    right: -50px;
+    bottom: -50px;
+    left: -50px;
+  
+    z-index: 1;
   }

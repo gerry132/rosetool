@@ -1,100 +1,139 @@
 <!DOCTYPE html>
 <html lang="eng">
     <head>
-        <link rel="stylesheet" type="text/css" href="CCC.css" />
-
-        <script src="test.js"></script> 
+        {% load static %}
+        <link rel="stylesheet" type="text/css" href="{% static 'mainapp/CCC.css' %}" />
         <title>L'Appeal Du Vide</title>
         <meta charset="utf-8">
         <meta name="viewport" content ="width=device-width, initial-scale=1">
-        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>    
+    
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 </head>
 
 
      <div class = navbar>
     
         <ul id = "menu">
-     <li><a href="home.html" ><button class="dropbtn">Home</button> </a> </li>
+     <li><a href="/" ><button class="dropbtn">Home</button> </a> </li>
 
-      <li> <a href="DesignReport.html" ><button class="dropbtn">Design Report</button> </a></li> 
+      <li> <a href="/design_report" ><button class="dropbtn">Design Report</button> </a></li> 
 
-     <li> <a href="PD.html"><button class="dropbtn">Personal Development</button> </a></li> 
+     <li> <a href="/personal_development"><button class="dropbtn">Personal Development</button> </a></li> 
 
-      <li> <a href="Presentation.html"><button class="dropbtn">Presentation</button></a></li> 
-    
-    
+      <li> <a href="/presentation"><button class="dropbtn">Presentation</button></a></li> 
     </ul>
 
 </div>
 
     <body>
         <div class = "page-contianer">
-            <main><div class="header-b"> <div id="blog-img">
+            <main><div class="header-b"> <div id="blog-img-bau">
           
             </div>
           </div></main>
 
-    <article>
-        <h1>Week 3: Bauhaus</h1>
- <p>The Bauhaus school was founded by Walter Gropius in Weimar in 1919. His objective was to unify art with industrial technology "they
-     encouraged the usage of modern technologies and believed thatforms follow function and that the artist and the craftsman should be united in 
-     one individual, and focued on the productivity instead of the mere beauty of the design"
- </p>
-
- <img src="bau1.jpg" style="display:block; margin: 0 auto; height:50%; width:50%" alt="alt text">
-
- <p>After the school closed in 1933 due to pressure from the Naxi Regime many of its educators and students spread across the globe 
-     bringing with them the aesthetics and philosophy of the Bauhaus school and what it introduced to the world was a new way of viewing objects
-     and a different conception of design. 
- </p>
-
- <p>The Bauhaus school was the first to establisha dedicated  Typography department. Educators at the school emphasised the 
-     importance of using the grid system and recommended the use of san serif fonts due to their clean uncomplicated design. From these 
-     teachings designers began to organise information differently using the grid and this is still evident today in many designs and a 
-     good example of its practice is in web design. Web design has totally embraced the uncomplicated and clean principles of Buahaus this 
-     is seen in many examples such as Microsoft. </p>
-     
-     <img src="sur_main.jpg" style="display:block; margin: 0 auto; height:50%; width:50%" alt="alt text">
-    <p> In 2010 Microsoft decided to adopt what is called a flat design influenced by the 
-     Bauhaus movement. This visual scheme is ubiquitous across all of Microsoft's products including the Windows phone, XBOX, and Widows 
-     OS. "Now when you look at a Windows Phone, Windows 8 tablet or PC, or an Xbox console, they look like a family of devices. And when I  use these devices, they behave like a family of devices, sharing my content, settings and experiences across them. "
-     He goes on to say " When Sam Moreau, design director for Windows, says, “The content is the interface,” he’s channeling his inner Bauhaus. "
- </p>
-
-
-
-
-    </article>
-
-    <aside>
-        <h2>Blog Links</h2>
-        <nav>
-          <ul>
-            <li><a href="indus.html">Week 1: Industrial Revolution</a></li>
-            <li><a href="Russia.html">Week 2: Russian Constructivism</a></li>
-            <li><a href="Bauhaus.html">Week 3: Bauhaus</a></li>
-            <li><a href="Newtyp.html">Week 4: New Typography</a></li>
-            
-            <li><a href="NEWYork.html">Week 5: New York</a></li>
-          </ul>
-      </nav>
-      </aside>
-
-
-    <footer>
-        <p>Rose Toolan 2020</p>
-    </footer>
-
- 
+          <article id="bau">
+            <h1>Week 3: Bauhaus</h1>
+     <p>The Bauhaus school was founded by Walter Gropius in Weimar in 1919. His objective was to unify art with industrial technology and the school he established "
+         encouraged the usage of modern technologies and believed thatforms follow function and that the artist and the craftsman should be united in 
+         one individual, and focued on the productivity instead of the mere beauty of the design" ("The Modern Letter - The Best of the Bauhaus Typography" 2020)
+     </p>
+     <figure style = "width:60%; height:60%; margin-left: 20%;">
+        <img src = "/static/mainapp/bau1.jpg" width="width" height="height" 
+        style="padding-bottom:0.5em; width: 80%; height:80%;" /><figcaption style= "font-style: italic; font-size: smaller;">
+            Fig 1: The Bauhaus emblem, designed by Oskar Schlemmer and adopted in 1921 </figcaption>
+        </figure>
     
-</body>
+     <p>After the school closed in 1933 due to pressure from the Naxi Regime many of its educators and students spread across the globe 
+         bringing with them the aesthetics and philosophy of the Bauhaus school and what it introduced to the world was a new way of viewing objects
+         and a different conception of design. It was revolutionary in the sense that it established a dedicated school for graphic design.
+     </p>
+    
+     <p>The Bauhaus school was the first to establisha dedicated  Typography department. Educators at the school emphasised the 
+         importance of using the grid system and recommended the use of san serif fonts due to their clean uncomplicated design. From these 
+         teachings designers began to organise information differently using the grid and this is still evident today in many designs and a 
+         good example of its practice is in web design. Web design has totally embraced the uncomplicated and clean principles of Buahaus this 
+         is seen in many examples such as Microsoft. </p>
 
+         <figure style = "width:60%; height:60%; margin-left: 20%;">
+            <img src = "/static/mainapp/sur_main.jpg" width="width" height="height" 
+            style="padding-bottom:0.5em; width: 80%; height:80%;" /><figcaption style= "font-style: italic; font-size: smaller;">
+                Fig 2: Windows Interface </figcaption>
+            </figure>
+         
+        <p> In 2010 Microsoft decided to adopt what is called a flat design influenced by the 
+         Bauhaus movement. This visual scheme is ubiquitous across all of Microsoft's products including the Windows phone, XBOX, and Widows 
+         OS. "Now when you look at a Windows Phone, Windows 8 tablet or PC, or an Xbox console, they look like a family of devices. And when I  use these devices, they behave like a family of devices, sharing my content, settings and experiences across them. "
+         He goes on to say " When Sam Moreau, design director for Windows, says, 
+         “The content is the interface,” he’s channeling his inner Bauhaus. " ("Modern Design at Microsoft" 2020)
+     </p>
+    
+     <p>One artist that I was drawn to from the Bauhaus school is László Moholy-Nagy. I have experimented with photo collage before using photoshop and other apps and One
+         in particular was quite similar.
+     </p>
 
+     <figure style = "float:left; width:50%; height:50%">
+        <img src = "/static/mainapp/photomontage_2.jpg" style="display: block; width:80%; height:58%; ">
+        <figcaption style= "font-style: italic; font-size: smaller;">Fig 3: László Moholy-Nagy</figcaption></figure>
 
+        <figure style = "float:left; width:50%; height:50%">
+            <img src = "/static/mainapp/baud.jpg" style="display: block; width:80%; height:80%; ">
+            <figcaption style= "font-style: italic; font-size: smaller;">My own work</figcaption></figure>
+    
+    
+     <p>In this image I used images of buildings overlayed over a image of my own face. Looking at it I found some elements that are quite in line with the Bauhaus style particularly
+     the work of László Moholy-Nagy. From this I was inspired to create another image with the knowledge of the techniques and processes of this design school and produced this using Photoshop and some photos I had captured previously in the year.
+    </p>
+    
+    <p>In this image I used a lot of geometric shapes which is actually more reminiscent of Russian Constructivism</p>
+    
+     <img src="/static/mainapp/exper.jpg" style = "margin-left:15%; height:70%; width:70%"  alt="alt text">
+     <br>
+    
+     <p>I took inspiration from Moholy-Nagy photomontage work, below are two examples:</p>
+     <br>
 
+     <figure style = "float:left; width:40%; height:40%">
+        <img src = "/static/mainapp/inspo.jpg" width="width" height="height" 
+        style="padding-bottom:0.5em; width: 80%; height:80%;" /><figcaption style= "font-style: italic; font-size: smaller;">Fig:5 Target Practice (In the Name of the Law) ca. 1927</figcaption>
+        </figure>
+        <figure style = "float: left; width:40%; height:40%">
+            <img src = "/static/mainapp/laz.jpg" width="width" height="height" 
+            style="padding-bottom:0.5em; width: 80%; height:80%;" /><figcaption style= "font-style: italic; font-size: smaller;">Fig 6: Target Practice (In the Name of the Law) ca. 1927</figcaption>
+            </figure>
+        <br>
+        <br>
 
-</html>
+    <h1 style="clear: left;">References</h1>
+     <p>The Modern Letter - The Best Of The Bauhaus Typography [online] (2020) [online], Widewalls.</p>
+     <p>Modern Design At Microsoft [online] (2020) [online], Microsoft.com.</p>
+
+     <h1>Image Credits</h1>
+     <p>Figure 1: Bauhaus [online] (2020) [online], En.wikipedia.org.</p>
+     <p>Figure 2: </p>
+     <p>Figure 3: László Moholy-Nagy: The Art Of Light | Photography Blog [online] (2020) [online], Photographyblog.com.</p>
+     <p>Figure 4: [online] (2020) [online], Metmuseum.org.</p>
+     <p>Figure 5: Photomontage - Modern Art Terms And Concepts [online] (2020) [online], The Art Story.</p>
+
+    
+        </article>
+    
+        <aside>
+            <h2>Blog Links</h2>
+            <nav>
+              <ul>
+                <li><a href="/indus">Week 1: Industrial Revolution</a></li>
+                <li><a href="/russia">Week 2: Russian Constructivism</a></li>
+                <li><a href="/bauhaus">Week 3: Bauhaus</a></li>
+                <li><a href="/newtyp">Week 4: New Typography</a></li>
+                
+                <li><a href="/newyork">Week 5: New York</a></li>
+              </ul>
+          </nav>
+          </aside>
+
+    
+ </html>    

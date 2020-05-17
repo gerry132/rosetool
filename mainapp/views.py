@@ -20,3 +20,28 @@ def presentation(request):
 
 def blog(request):
     return render(request, 'mainapp/Blog.html')
+
+def indus(request):
+    return render(request, 'mainapp/indus.html')
+
+def bauhaus(request):
+    return render(request, 'mainapp/bauhaus.html')
+
+def newtyp(request):
+    return render(request, 'mainapp/newtyp.html')
+
+def newyork(request):
+    return render(request, 'mainapp/newyork.html')
+
+def russia(request):
+    return render(request, 'mainapp/russia.html')
+
+def psa(request):
+    return render(request, 'mainapp/psa.html')
+
+def roles(request):
+    return render(request, 'mainapp/roles.html')
+
+def diary(request):
+    return render(request, 'mainapp/diary.html')
+

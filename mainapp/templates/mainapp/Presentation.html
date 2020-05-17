@@ -1,30 +1,91 @@
 <!DOCTYPE html>
 <html lang="eng">
     <head>
-        <link rel = "stylesheet"
-        type = "text/css"
-        href = "CCC.css" />
+        {% load static %}
+        <link rel="stylesheet" type="text/css" href="{% static 'mainapp/CCC.css' %}" />
         <title>L'Appeal Du Vide</title>
         <meta charset="utf-8">
         <meta name="viewport" content ="width=device-width, initial-scale=1">
     
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 </head>
 
-<body>
-    <ul>
-     
-        
-      <li> <a href="Test.html"><figure class="circle"></figure></a></li>
-      <li> <a href="Design History.html"><figure class="circle"></figure></a></li>
-      <li> <a href="DesignReport.html"><figure class="circle"></figure></a></li>
-      <li> <a href="PD.html"><figure class="circle"></figure></a></li>
-      <li> <a href="Presentation.html"><figure class="circle"></figure></a></li>
+
+<ul id = "menu">
+         
+
+  <li> <a href="/"><button class="dropbtn">Home</button></a></li> 
+
+        <li><a href="/blog" ><button class="dropbtn">Design History</button> </a></li> 
+
+
+     <li> <a href="/design_report" ><button class="dropbtn">Design Report</button> </a></li> 
+
+     <li> <a href="/personal_development"><button class="dropbtn">Personal Development</button> </a></li> 
+
+      
+    
     </ul>
-</body>
+
+<body>
+  <div class = "page-contianer">
+    <div id="pres-img">
+ 
+   </div>
+ </div>
+    <article>
+
+      <h1>April Greiman’s impact on design and other creative industries
+      </h1>
+          <p>April Greiman was one of the first graphic designers to embrace computer technology as a medium for creating art, nowadays
+            graphic designers see a computer as an indespinsible tool but many of her contemporary's feared the increasing amount of digitalization
+          </p>
+      <img src="/static/mainapp/april.jpg" style="display:block; margin: 0 auto; height:50%; width:50%" alt="alt text">
+
+      <p style= "font-style: italic;">"This fascination comes from the core of her being, a core of perpetual curiosity and questioning that fuels her desire to explore and inspires the cutting-edge design work that places her at the helm of integrated design at the close of the twentieth century"</p>
+    
+      <h1>Influences</h1>
+
+      <p>She describes her style as a blend of "...technology, science, word and image with color and space..."</p>
+     
+        <img src="/static/mainapp/weingart.png" style = float:left> <p >Greiman studied at the Basel School of Design in Switzerland, 
+          it was there that she was introduced to the New Wave style by Wolfgang Weingart who had been teaching his students his this technique 
+          since the 1970's. The New Wave style was heavily influenced by
+        Punk culture and the Swiss style and took many elements that characterised the Swiss style and distorted and 
+      warped them. Letter spacing became widened and the consistency of font style, sizes and orientation varied even within a word
+      in essence breaking all the fundamental rules of Typography single word.</p>
+      <p>
+
+      </p>
+      <h1 style="clear: both;">Comparative Analysis</h1>
+      <p>
+
+      </p>
+
+      <p>Technology is advancing at an exponential rate and with this artists have embraced these new tools in new and innovative waves.
+         In the early 2000's a style known as Vapourwave became popular online and is reminiscent of April Greiman's work in particular
+         with its use of 80's and 90's computer graphics. </p>
+
+         
+
+        <p> Nowadays we take the digital tools we use for granted but when April Greiman
+          she only had a 1 Megabyte computer at hand with a monochrome 9 inch display.
+       </p><img src = "/static/mainapp/makesense.jpg" style="display:block; margin: 0 auto; height:50%; width:50%" alt="alt text" >
+    
+        <h2>References</h2>
+        <p>https://www.aiga.org/medalist-aprilgreiman</p>
+        <p>http://www.designishistory.com/1980/april-greiman/</p>
+        <p>http://ghd.merokdesign.no/new-wave-punk/</p>
+        <p>https://www.smashingmagazine.com/2014/10/icons-of-digital-design/</p>
+
+        <h2>Image Credits</h2>
+        <p>Figure 1: https://www.aiga.org/medalist-aprilgreiman</p>
+        <p>Figure 2: https://www.smashingmagazine.com/2014/10/icons-of-digital-design/</p>
+
+    </article>
     
 </body>
 </html>
