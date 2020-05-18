@@ -544,7 +544,7 @@ aside {
   #goals{
     background-blend-mode: color-dodge;
     color: violet;
-    font-weight: 600;
+    font-weight: 500;
 
     font-family: monospace;
     filter: saturate(5);
@@ -553,7 +553,7 @@ aside {
 
 
   #psa{
-    background-image: url(/static/mainapp/psa5.jpg);
+    background-image: url(/static/mainapp/psa6.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     margin-left: 0%;
@@ -583,7 +583,7 @@ aside {
   }
 
 
-  .btn-liquid {
+  .btn-liquid, .btn-liquid2, .btn-liquid3 {
     display: inline-block;
     position: relative;
     width: 240px;
@@ -599,13 +599,13 @@ aside {
     text-transform: uppercase;
   }
   
-  .btn-liquid .inner {
+  .btn-liquid, .btn-liquid2, .btn-liquid3 .inner {
     position: relative;
   
     z-index: 2;
   }
   
-  .btn-liquid canvas {
+  .btn-liquid, .btn-liquid2, .btn-liquid3 canvas {
     position: absolute;
     top: -50px;
     right: -50px;
