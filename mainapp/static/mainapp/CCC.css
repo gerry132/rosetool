@@ -544,7 +544,7 @@ aside {
   #goals{
     background-blend-mode: color-dodge;
     color: violet;
-    font-weight: 600;
+    font-weight: 500;
 
     font-family: monospace;
     filter: saturate(5);
@@ -553,7 +553,7 @@ aside {
 
 
   #psa{
-    background-image: url(/static/mainapp/psa5.jpg);
+    background-image: url(/static/mainapp/psa6.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     margin-left: 0%;

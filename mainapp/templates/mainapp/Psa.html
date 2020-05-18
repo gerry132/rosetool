@@ -11,6 +11,28 @@
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 70%; /* Should be removed. Only for demonstration */
+}
+
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+</style>
+
 </head>
 
 
@@ -18,10 +40,11 @@
     
         <ul id = "menu">
      <li><a href="/" ><button class="dropbtn">Home</button> </a> </li>
+     <li> <a href="/blog"><button class="dropbtn">Design History</button> </a></li> 
 
       <li> <a href="/design_report" ><button class="dropbtn">Design Report</button> </a></li> 
 
-     <li> <a href="/personal_development"><button class="dropbtn">Personal Development</button> </a></li> 
+     
 
       <li> <a href="/presentation"><button class="dropbtn">Presentation</button></a></li> 
     
@@ -38,55 +61,131 @@
 
 
       <article id = "bau">
-          <h1>Professional Skills Audit</h1>
+          <h1>Personal Skills Audit</h1>
+          <br>
 
-          <h2>Review of a Practioner</h2>
+          <h2 id ="goals">Introduction</h2>
 
 <p>
     Currently I work as a Data Analyst and although I don’t hate my work it is not something I am passionate about. About a year ago I made the decision to once again return to further education and this time to follow my dreams of working in the creative industry. Since an early age I loved drawing and painting and this followed me throughout my formative years. Sadly upon leaving secondary school I decided not to pursue Art & Design this decision was informed by many factors at the time and too much to try to explain but I here I am now trying to fulfil the dreams of my teenage self. I went into this course not really knowing what to expect and also I wasn’t really clear on what avenue of graphic design I wanted to pursue. In reality I sent my expectations low for myself as I didn’t want to be disappointed on perhaps not enjoying it or have the capacity or skill to apply myself to the requirements of the course. 
-One of the main driving forces behind my decision to apply for this course was my new found interest in Photoshop. About 2 years ago I reignited my interest in Photography and started an Instagram account over time I learned of free photo editing apps and used them to modify my images and really enjoyed it and gain quite a few followers. Over time I thought about turning it into something more than a hobby and it dawned on me that what I was always happiest was when I was creating, I even notice at work I spend too much of my time settling on the colour scheme of the dashboards or trying to spruce up some charts and graphs with snazzy designs.
+One of the main driving forces behind my decision to apply for this course was my new found interest in Photoshop. 
+About 2 years ago I reignited my interest in Photography and started an Instagram account over time 
+I learned of free photo editing apps and used them to modify my images and really enjoyed it and gain quite a few followers. </p>
+<div style ="width:50%; height:50%; float:left;">
+<blockquote class="instagram-media" 
+data-instgrm-captioned data-instgrm-permalink="https://www.instagram.com/p/Bv1-Japg_dQ/?utm_source=ig_embed&amp;utm_campaign=loading" 
+data-instgrm-version="12" style=
+" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); 
+margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"><div style="padding:16px;"> <a href="https://www.instagram.com/p/Bv1-Japg_dQ/?utm_source=ig_embed&amp;utm_campaign=loading" style=" background:#FFFFFF; line-height:0; padding:0 0; text-align:center; text-decoration:none; width:100%;" target="_blank"> <div style=" display: flex; flex-direction: row; align-items: center;"> <div style="background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 40px; margin-right: 14px; width: 40px;"></div> <div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center;"> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 100px;"></div> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 60px;"></div></div></div><div style="padding: 19% 0;"></div> <div style="display:block; height:50px; margin:0 auto 12px; width:50px;"><svg width="50px" height="50px" viewBox="0 0 60 60" version="1.1" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink"><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g transform="translate(-511.000000, -20.000000)" fill="#000000"><g><path d="M556.869,30.41 C554.814,30.41 553.148,32.076 553.148,34.131 C553.148,36.186 554.814,37.852 556.869,37.852 C558.924,37.852 560.59,36.186 560.59,34.131 C560.59,32.076 558.924,30.41 556.869,30.41 M541,60.657 C535.114,60.657 530.342,55.887 530.342,50 C530.342,44.114 535.114,39.342 541,39.342 C546.887,39.342 551.658,44.114 551.658,50 C551.658,55.887 546.887,60.657 541,60.657 M541,33.886 C532.1,33.886 524.886,41.1 524.886,50 C524.886,58.899 532.1,66.113 541,66.113 C549.9,66.113 557.115,58.899 557.115,50 C557.115,41.1 549.9,33.886 541,33.886 M565.378,62.101 C565.244,65.022 564.756,66.606 564.346,67.663 C563.803,69.06 563.154,70.057 562.106,71.106 C561.058,72.155 560.06,72.803 558.662,73.347 C557.607,73.757 556.021,74.244 553.102,74.378 C549.944,74.521 548.997,74.552 541,74.552 C533.003,74.552 532.056,74.521 528.898,74.378 C525.979,74.244 524.393,73.757 523.338,73.347 C521.94,72.803 520.942,72.155 519.894,71.106 C518.846,70.057 518.197,69.06 517.654,67.663 C517.244,66.606 516.755,65.022 516.623,62.101 C516.479,58.943 516.448,57.996 516.448,50 C516.448,42.003 516.479,41.056 516.623,37.899 C516.755,34.978 517.244,33.391 517.654,32.338 C518.197,30.938 518.846,29.942 519.894,28.894 C520.942,27.846 521.94,27.196 523.338,26.654 C524.393,26.244 525.979,25.756 528.898,25.623 C532.057,25.479 533.004,25.448 541,25.448 C548.997,25.448 549.943,25.479 553.102,25.623 C556.021,25.756 557.607,26.244 558.662,26.654 C560.06,27.196 561.058,27.846 562.106,28.894 C563.154,29.942 563.803,30.938 564.346,32.338 C564.756,33.391 565.244,34.978 565.378,37.899 C565.522,41.056 565.552,42.003 565.552,50 C565.552,57.996 565.522,58.943 565.378,62.101 M570.82,37.631 C570.674,34.438 570.167,32.258 569.425,30.349 C568.659,28.377 567.633,26.702 565.965,25.035 C564.297,23.368 562.623,22.342 560.652,21.575 C558.743,20.834 556.562,20.326 553.369,20.18 C550.169,20.033 549.148,20 541,20 C532.853,20 531.831,20.033 528.631,20.18 C525.438,20.326 523.257,20.834 521.349,21.575 C519.376,22.342 517.703,23.368 516.035,25.035 C514.368,26.702 513.342,28.377 512.574,30.349 C511.834,32.258 511.326,34.438 511.181,37.631 C511.035,40.831 511,41.851 511,50 C511,58.147 511.035,59.17 511.181,62.369 C511.326,65.562 511.834,67.743 512.574,69.651 C513.342,71.625 514.368,73.296 516.035,74.965 C517.703,76.634 519.376,77.658 521.349,78.425 C523.257,79.167 525.438,79.673 528.631,79.82 C531.831,79.965 532.853,80.001 541,80.001 C549.148,80.001 550.169,79.965 553.369,79.82 C556.562,79.673 558.743,79.167 560.652,78.425 C562.623,77.658 564.297,76.634 565.965,74.965 C567.633,73.296 568.659,71.625 569.425,69.651 C570.167,67.743 570.674,65.562 570.82,62.369 C570.966,59.17 571,58.147 571,50 C571,41.851 570.966,40.831 570.82,37.631"></path></g></g></g></svg></div><div style="padding-top: 8px;"> <div style=" color:#3897f0; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:550; line-height:18px;"> View this post on Instagram</div></div><div style="padding: 12.5% 0;"></div> <div style="display: flex; flex-direction: row; margin-bottom: 14px; align-items: center;"><div> <div style="background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(0px) translateY(7px);"></div> <div style="background-color: #F4F4F4; height: 12.5px; transform: rotate(-45deg) translateX(3px) translateY(1px); width: 12.5px; flex-grow: 0; margin-right: 14px; margin-left: 2px;"></div> <div style="background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(9px) translateY(-18px);"></div></div><div style="margin-left: 8px;"> <div style=" background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 20px; width: 20px;"></div> <div style=" width: 0; height: 0; border-top: 2px solid transparent; border-left: 6px solid #f4f4f4; border-bottom: 2px solid transparent; transform: translateX(16px) translateY(-4px) rotate(30deg)"></div></div><div style="margin-left: auto;"> <div style=" width: 0px; border-top: 8px solid #F4F4F4; border-right: 8px solid transparent; transform: translateY(16px);"></div> <div style=" background-color: #F4F4F4; flex-grow: 0; height: 12px; width: 16px; transform: translateY(-4px);"></div> <div style=" width: 0; height: 0; border-top: 8px solid #F4F4F4; border-left: 8px solid transparent; transform: translateY(-4px) translateX(8px);"></div></div></div></a> <p style=" margin:8px 0 0 0; padding:0 4px;"> <a href="https://www.instagram.com/p/Bv1-Japg_dQ/?utm_source=ig_embed&amp;utm_campaign=loading" style=" color:#000; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none; word-wrap:break-word;" target="_blank">#entropy_to_epitaphs #everything_edited #ethereal_moods #total_gothic #urbexworld #urbexphotography #urbex #ominous_perfection #artofmystery #soul_hunters #darkness_fantasy #fa_fadeaway #gloomy_side_views #gallery_of_dark_souls #gallery_of_dark_arts #kings_gothic #mistery_arts #masters_of_darkness</a></p> <p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;">A post shared by <a href="https://www.instagram.com/lappel_du_vid.e/?utm_source=ig_embed&amp;utm_campaign=loading" style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px;" target="_blank"> Rose</a> (@lappel_du_vid.e) on <time style=" font-family:Arial,sans-serif; font-size:14px; line-height:17px;" datetime="2019-04-04T18:14:34+00:00">Apr 4, 2019 at 11:14am PDT</time></p></div></blockquote>
+<script async src="//www.instagram.com/embed.js"></script>
+</div>
+<div style="width:50%; height:50%;float:left"><blockquote class="instagram-media" data-instgrm-captioned data-instgrm-permalink="https://www.instagram.com/p/Bp2eR7agysq/?utm_source=ig_embed&amp;utm_campaign=loading" data-instgrm-version="12" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"><div style="padding:16px;"> <a href="https://www.instagram.com/p/Bp2eR7agysq/?utm_source=ig_embed&amp;utm_campaign=loading" style=" background:#FFFFFF; line-height:0; padding:0 0; text-align:center; text-decoration:none; width:100%;" target="_blank"> <div style=" display: flex; flex-direction: row; align-items: center;"> <div style="background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 40px; margin-right: 14px; width: 40px;"></div> <div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center;"> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 100px;"></div> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 60px;"></div></div></div><div style="padding: 19% 0;"></div> <div style="display:block; height:50px; margin:0 auto 12px; width:50px;"><svg width="50px" height="50px" viewBox="0 0 60 60" version="1.1" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink"><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g transform="translate(-511.000000, -20.000000)" fill="#000000"><g><path d="M556.869,30.41 C554.814,30.41 553.148,32.076 553.148,34.131 C553.148,36.186 554.814,37.852 556.869,37.852 C558.924,37.852 560.59,36.186 560.59,34.131 C560.59,32.076 558.924,30.41 556.869,30.41 M541,60.657 C535.114,60.657 530.342,55.887 530.342,50 C530.342,44.114 535.114,39.342 541,39.342 C546.887,39.342 551.658,44.114 551.658,50 C551.658,55.887 546.887,60.657 541,60.657 M541,33.886 C532.1,33.886 524.886,41.1 524.886,50 C524.886,58.899 532.1,66.113 541,66.113 C549.9,66.113 557.115,58.899 557.115,50 C557.115,41.1 549.9,33.886 541,33.886 M565.378,62.101 C565.244,65.022 564.756,66.606 564.346,67.663 C563.803,69.06 563.154,70.057 562.106,71.106 C561.058,72.155 560.06,72.803 558.662,73.347 C557.607,73.757 556.021,74.244 553.102,74.378 C549.944,74.521 548.997,74.552 541,74.552 C533.003,74.552 532.056,74.521 528.898,74.378 C525.979,74.244 524.393,73.757 523.338,73.347 C521.94,72.803 520.942,72.155 519.894,71.106 C518.846,70.057 518.197,69.06 517.654,67.663 C517.244,66.606 516.755,65.022 516.623,62.101 C516.479,58.943 516.448,57.996 516.448,50 C516.448,42.003 516.479,41.056 516.623,37.899 C516.755,34.978 517.244,33.391 517.654,32.338 C518.197,30.938 518.846,29.942 519.894,28.894 C520.942,27.846 521.94,27.196 523.338,26.654 C524.393,26.244 525.979,25.756 528.898,25.623 C532.057,25.479 533.004,25.448 541,25.448 C548.997,25.448 549.943,25.479 553.102,25.623 C556.021,25.756 557.607,26.244 558.662,26.654 C560.06,27.196 561.058,27.846 562.106,28.894 C563.154,29.942 563.803,30.938 564.346,32.338 C564.756,33.391 565.244,34.978 565.378,37.899 C565.522,41.056 565.552,42.003 565.552,50 C565.552,57.996 565.522,58.943 565.378,62.101 M570.82,37.631 C570.674,34.438 570.167,32.258 569.425,30.349 C568.659,28.377 567.633,26.702 565.965,25.035 C564.297,23.368 562.623,22.342 560.652,21.575 C558.743,20.834 556.562,20.326 553.369,20.18 C550.169,20.033 549.148,20 541,20 C532.853,20 531.831,20.033 528.631,20.18 C525.438,20.326 523.257,20.834 521.349,21.575 C519.376,22.342 517.703,23.368 516.035,25.035 C514.368,26.702 513.342,28.377 512.574,30.349 C511.834,32.258 511.326,34.438 511.181,37.631 C511.035,40.831 511,41.851 511,50 C511,58.147 511.035,59.17 511.181,62.369 C511.326,65.562 511.834,67.743 512.574,69.651 C513.342,71.625 514.368,73.296 516.035,74.965 C517.703,76.634 519.376,77.658 521.349,78.425 C523.257,79.167 525.438,79.673 528.631,79.82 C531.831,79.965 532.853,80.001 541,80.001 C549.148,80.001 550.169,79.965 553.369,79.82 C556.562,79.673 558.743,79.167 560.652,78.425 C562.623,77.658 564.297,76.634 565.965,74.965 C567.633,73.296 568.659,71.625 569.425,69.651 C570.167,67.743 570.674,65.562 570.82,62.369 C570.966,59.17 571,58.147 571,50 C571,41.851 570.966,40.831 570.82,37.631"></path></g></g></g></svg></div><div style="padding-top: 8px;"> <div style=" color:#3897f0; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:550; line-height:18px;"> View this post on Instagram</div></div><div style="padding: 12.5% 0;"></div> <div style="display: flex; flex-direction: row; margin-bottom: 14px; align-items: center;"><div> <div style="background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(0px) translateY(7px);"></div> <div style="background-color: #F4F4F4; height: 12.5px; transform: rotate(-45deg) translateX(3px) translateY(1px); width: 12.5px; flex-grow: 0; margin-right: 14px; margin-left: 2px;"></div> <div style="background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(9px) translateY(-18px);"></div></div><div style="margin-left: 8px;"> <div style=" background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 20px; width: 20px;"></div> <div style=" width: 0; height: 0; border-top: 2px solid transparent; border-left: 6px solid #f4f4f4; border-bottom: 2px solid transparent; transform: translateX(16px) translateY(-4px) rotate(30deg)"></div></div><div style="margin-left: auto;"> <div style=" width: 0px; border-top: 8px solid #F4F4F4; border-right: 8px solid transparent; transform: translateY(16px);"></div> <div style=" background-color: #F4F4F4; flex-grow: 0; height: 12px; width: 16px; transform: translateY(-4px);"></div> <div style=" width: 0; height: 0; border-top: 8px solid #F4F4F4; border-left: 8px solid transparent; transform: translateY(-4px) translateX(8px);"></div></div></div></a> <p style=" margin:8px 0 0 0; padding:0 4px;"> <a href="https://www.instagram.com/p/Bp2eR7agysq/?utm_source=ig_embed&amp;utm_campaign=loading" style=" color:#000; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none; word-wrap:break-word;" target="_blank">&#34;There are darknesses in life and there are lights, and you are one of the lights, the light of all lights.” ― Bram Stoker, Dracula  #entropy_to_epitaphs #everything_edited #ethereal_moods #ethereal #total_gothic #ominous_perfection #moodygrams #artofmystery #soul_hunters #darkness_fantasy #fa_fadeaway #fifty_shades_of_darkness #gloomy_side_views #gallery_of_dark_souls #gallery_of_dark_arts #kings_gothic #masters_of_darkness</a></p> <p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;">A post shared by <a href="https://www.instagram.com/lappel_du_vid.e/?utm_source=ig_embed&amp;utm_campaign=loading" style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px;" target="_blank"> Rose</a> (@lappel_du_vid.e) on <time style=" font-family:Arial,sans-serif; font-size:14px; line-height:17px;" datetime="2018-11-06T19:46:59+00:00">Nov 6, 2018 at 11:46am PST</time></p></div></blockquote>
+<script async src="//www.instagram.com/embed.js"></script></div>
+<p>Over time I thought about turning it into something more than a hobby and it dawned on me that what I was always happiest was when I was creating, I even notice at work I spend too much of my time settling on the colour scheme of the dashboards or trying to spruce up some charts and graphs with snazzy designs.
 Now nearing the end of this course I am becoming a little clearer on the path I would like to follow. As I have a background in Computer Science I have completed modules in Web Development and I realise it is something I could integrate with my new found skills in graphic design.
 </p>
-<p>
-Strengths:
-Knowledge of web design and development
-Photography
-HTML 
-CSS
-Javascript
-Research skills
-</p>
 
-Weaknesses:
-After effects
-I need to improve my social skills
-I am a poor public speaker
-I tend to procrastinate
 
-Opportunities:
-The website I created for this unit can be used to promote my work
-I already have an Instagram account for my photography and could use this to promote my graphic design work
-
-Threats:
-The current situation in Ireland due to Covid-19 could impact on the creative industry and their maybe less opportunities for recent graduates
-I work fulltime and may not be able to dedicate myself to pursing graphic design further
-
-Upon research possible career paths that would incorporate my Computer Science knowledge and Graphic Designs I found that possibly a role as either a UI or UX designer would suit me. To gain a better understanding of the requirements of the role I searched indeed.ie. I found that there were numerous roles available most were more senior but a graduate one looked less intimidating. Surprisingly I do have many of the skills required already but perhaps not the duration in practice.  Here is a screenshot of the job description:
+<div class= "row">
+  <div class="column">
+    
+      <h3 id ="goals">Strengths:</h3>
   
-During my course in Computer Science I designed a mobile news app and a ecommerce website so I would evaluate myself as having basic to intermediate knowledge of HTML, CSS, Bootstrap and Javascript. While designing my website I used Bootstrap to regulate the responsiveness of the pages to different interfaces. I also studied Sociology and Anthropology and have strong research skills particularly into human behaviour and psychology which can be useful in a role such as this.
+      <p>+ Knowledge of web design and development</p>
+      <p>+ HTML, CSS, Python and Javascript</p>
+      <p>+ Photography</p>
+      <p>+ Primary and secondary research</p>
+      <p>+ HDip in Computer Science</p>
+      <p>+ Masters Degree in Anthropology</p>
+      <p>+ Bachelors in Sociology and Anthropology</p>
+      <p>+ Drawing skills</p>
+      <p>+ Data Analysis</p>
+      <p>+ Working with data visualization tools such as Power BI</p>
+      <p>+ Creating procedural work instructions</p>
+      <p>+ Experince with Facebook and Instagram advertsing features</p>
+      <p>+ Experince with Photoshop, Illustrator and InDesign</p>
+    
+  </div>
 
-I decided to do some additional research into UX and wanted to differentiate it between UI to decide which best applied to me. According to Raffaela Rein 
-“there are skills that are unique to each role. UX designers typically have experience with organizing and executing research, wireframing, prototyping, information architecture, interaction design, coding, and analytics. 
-UI designers usually have experience with responsive visual interface design, layouts and grid systems, visual hierarchy, typography, color theory, animation, accessibility, and A/B testing.”
+  <div class="column" >
+    <h2 id ="goals">Weaknesses:</h2>
+    <p>+ I tend to procrastinate</p>
+    <p>+ I need to improve my public speaking skills</p>
+    <p>+ Organisational skills could be improved</p>
+    <p>+ Animation or After Effects experience</p>
+    <p>+ Collaborating in teams as I often work alone</p>
+  </div>
+
+  <div class="column" >
+    <h2 id ="goals">Opportunities</h2>
+    <p>+ The website I created for this unit can be used to promote my work</p>
+    <p>+ I already have an Instagram account for my photography and could use this to promote my graphic design work</p>
+    <p>+ Undertake online courses to improve graphic design skills</p>
+    <p>+ Watch free tutorials on Youtube</p>
+    <p>+ Use course presentations as a method of overcoming fear of public speaking</p>
+
+  </div>
+
+  <div class="column" >
+    <h2 id ="goals">Threats</h2>
+    <p>+ The current situation in Ireland due to Covid-19 could impact on the creative industry and their maybe less opportunities for recent graduates
+      </p>
+    <p>+ I work fulltime and may not be able to dedicate myself to pursing graphic design further</p>
+    <p>+ Anxiety of public speaking</p>
+    <p>+ Lack of confidence</p>
+    <p>+ Pressure of work committments</p>
+
+ 
+  </div>
+
+
+</div>
+
+<h2 id ="goals">Review of a Practioner</h2>
+<p>Leta Sobierajski is an independent designer and also works as an art director at here own studio Wade & Leta. She has been recognised 
+  as an Art Directors Club Young Guns 15 recipient and is a adjunct professor at the School of Visual Arts in New York. She uses a variety of mediums and has worked on print illustrations and 
+illustrations and video. </p> 
+<p>During her time at Purchase University in New York she practiced a variety of methods while completeing her Graphic 
+  Design BA, she even took woodwork which is actually something I did for my Junior certificate and really enjoyed and would 
+  consider taking up again.
+</p><p>What I like about Leta Sobierajski is that she hasn't pigeon-holed herself into a particular style or format, she creates illustrations,
+  installations, patterns, photography and styling</p>
+<blockquote class="instagram-media" data-instgrm-captioned data-instgrm-permalink="https://www.instagram.com/p/B0oDealgLxR/?utm_source=ig_embed&amp;utm_campaign=loading" data-instgrm-version="12" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"><div style="padding:16px;"> <a href="https://www.instagram.com/p/B0oDealgLxR/?utm_source=ig_embed&amp;utm_campaign=loading" style=" background:#FFFFFF; line-height:0; padding:0 0; text-align:center; text-decoration:none; width:100%;" target="_blank"> <div style=" display: flex; flex-direction: row; align-items: center;"> <div style="background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 40px; margin-right: 14px; width: 40px;"></div> <div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center;"> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 100px;"></div> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 60px;"></div></div></div><div style="padding: 19% 0;"></div> <div style="display:block; height:50px; margin:0 auto 12px; width:50px;"><svg width="50px" height="50px" viewBox="0 0 60 60" version="1.1" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink"><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g transform="translate(-511.000000, -20.000000)" fill="#000000"><g><path d="M556.869,30.41 C554.814,30.41 553.148,32.076 553.148,34.131 C553.148,36.186 554.814,37.852 556.869,37.852 C558.924,37.852 560.59,36.186 560.59,34.131 C560.59,32.076 558.924,30.41 556.869,30.41 M541,60.657 C535.114,60.657 530.342,55.887 530.342,50 C530.342,44.114 535.114,39.342 541,39.342 C546.887,39.342 551.658,44.114 551.658,50 C551.658,55.887 546.887,60.657 541,60.657 M541,33.886 C532.1,33.886 524.886,41.1 524.886,50 C524.886,58.899 532.1,66.113 541,66.113 C549.9,66.113 557.115,58.899 557.115,50 C557.115,41.1 549.9,33.886 541,33.886 M565.378,62.101 C565.244,65.022 564.756,66.606 564.346,67.663 C563.803,69.06 563.154,70.057 562.106,71.106 C561.058,72.155 560.06,72.803 558.662,73.347 C557.607,73.757 556.021,74.244 553.102,74.378 C549.944,74.521 548.997,74.552 541,74.552 C533.003,74.552 532.056,74.521 528.898,74.378 C525.979,74.244 524.393,73.757 523.338,73.347 C521.94,72.803 520.942,72.155 519.894,71.106 C518.846,70.057 518.197,69.06 517.654,67.663 C517.244,66.606 516.755,65.022 516.623,62.101 C516.479,58.943 516.448,57.996 516.448,50 C516.448,42.003 516.479,41.056 516.623,37.899 C516.755,34.978 517.244,33.391 517.654,32.338 C518.197,30.938 518.846,29.942 519.894,28.894 C520.942,27.846 521.94,27.196 523.338,26.654 C524.393,26.244 525.979,25.756 528.898,25.623 C532.057,25.479 533.004,25.448 541,25.448 C548.997,25.448 549.943,25.479 553.102,25.623 C556.021,25.756 557.607,26.244 558.662,26.654 C560.06,27.196 561.058,27.846 562.106,28.894 C563.154,29.942 563.803,30.938 564.346,32.338 C564.756,33.391 565.244,34.978 565.378,37.899 C565.522,41.056 565.552,42.003 565.552,50 C565.552,57.996 565.522,58.943 565.378,62.101 M570.82,37.631 C570.674,34.438 570.167,32.258 569.425,30.349 C568.659,28.377 567.633,26.702 565.965,25.035 C564.297,23.368 562.623,22.342 560.652,21.575 C558.743,20.834 556.562,20.326 553.369,20.18 C550.169,20.033 549.148,20 541,20 C532.853,20 531.831,20.033 528.631,20.18 C525.438,20.326 523.257,20.834 521.349,21.575 C519.376,22.342 517.703,23.368 516.035,25.035 C514.368,26.702 513.342,28.377 512.574,30.349 C511.834,32.258 511.326,34.438 511.181,37.631 C511.035,40.831 511,41.851 511,50 C511,58.147 511.035,59.17 511.181,62.369 C511.326,65.562 511.834,67.743 512.574,69.651 C513.342,71.625 514.368,73.296 516.035,74.965 C517.703,76.634 519.376,77.658 521.349,78.425 C523.257,79.167 525.438,79.673 528.631,79.82 C531.831,79.965 532.853,80.001 541,80.001 C549.148,80.001 550.169,79.965 553.369,79.82 C556.562,79.673 558.743,79.167 560.652,78.425 C562.623,77.658 564.297,76.634 565.965,74.965 C567.633,73.296 568.659,71.625 569.425,69.651 C570.167,67.743 570.674,65.562 570.82,62.369 C570.966,59.17 571,58.147 571,50 C571,41.851 570.966,40.831 570.82,37.631"></path></g></g></g></svg></div><div style="padding-top: 8px;"> <div style=" color:#3897f0; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:550; line-height:18px;"> View this post on Instagram</div></div><div style="padding: 12.5% 0;"></div> <div style="display: flex; flex-direction: row; margin-bottom: 14px; align-items: center;"><div> <div style="background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(0px) translateY(7px);"></div> <div style="background-color: #F4F4F4; height: 12.5px; transform: rotate(-45deg) translateX(3px) translateY(1px); width: 12.5px; flex-grow: 0; margin-right: 14px; margin-left: 2px;"></div> <div style="background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(9px) translateY(-18px);"></div></div><div style="margin-left: 8px;"> <div style=" background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 20px; width: 20px;"></div> <div style=" width: 0; height: 0; border-top: 2px solid transparent; border-left: 6px solid #f4f4f4; border-bottom: 2px solid transparent; transform: translateX(16px) translateY(-4px) rotate(30deg)"></div></div><div style="margin-left: auto;"> <div style=" width: 0px; border-top: 8px solid #F4F4F4; border-right: 8px solid transparent; transform: translateY(16px);"></div> <div style=" background-color: #F4F4F4; flex-grow: 0; height: 12px; width: 16px; transform: translateY(-4px);"></div> <div style=" width: 0; height: 0; border-top: 8px solid #F4F4F4; border-left: 8px solid transparent; transform: translateY(-4px) translateX(8px);"></div></div></div></a> <p style=" margin:8px 0 0 0; padding:0 4px;"> <a href="https://www.instagram.com/p/B0oDealgLxR/?utm_source=ig_embed&amp;utm_campaign=loading" style=" color:#000; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none; word-wrap:break-word;" target="_blank">You know it’s love when your partner is willing to dress up in silly suits holding shapes you’ve hacked and painted impulsively to stand in front of a camera with a remote in your hand while dancing like no one is watching. Love you @wadejeffree. #dancelikenooneswatching</a></p> <p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;">A post shared by <a href="https://www.instagram.com/letasobierajski/?utm_source=ig_embed&amp;utm_campaign=loading" style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px;" target="_blank"> Leta Sobierajski</a> (@letasobierajski) on <time style=" font-family:Arial,sans-serif; font-size:14px; line-height:17px;" datetime="2019-08-01T15:08:44+00:00">Aug 1, 2019 at 8:08am PDT</time></p></div></blockquote> <script async src="//www.instagram.com/embed.js"></script>
+
+
+
+<br>
+<h2 id ="goals">Conclusion</h2>
+<p>
+  Upon research possible career paths that would incorporate my Computer Science knowledge and Graphic Design skills I found that possibly a role as either a UI or UX designer would suit me. To gain a better understanding of the requirements of the role I searched indeed.ie. I found that there were numerous roles available most were more senior but a graduate one looked less intimidating. Surprisingly I do have many of the skills required already but perhaps not the duration in practice.  Here is a screenshot of the job description:
+  During my course in Computer Science I designed a mobile news app and a ecommerce website so I would evaluate myself as having basic to intermediate knowledge of HTML, CSS, Bootstrap and Javascript. While designing my website I used Bootstrap to regulate the responsiveness of the pages to different interfaces. I also studied Sociology and Anthropology and have strong research skills particularly into human behaviour and psychology which can be useful in a role such as this.
+</p>
+<p>I decided to do some additional research into UX and wanted to differentiate it between UI 
+to decide which best applied to me. According to Raffaela Rein: </p>
+
+<p style = "font-style: italic; margin-left: 10%; margin-right: 10%;">“there are skills that are unique to each role. UX designers typically 
+have experience with organizing and executing research, wireframing, prototyping, information architecture, 
+interaction design, coding, and analytics. 
+UI designers usually have experience with responsive visual interface design, layouts and grid systems, visual hierarchy, 
+typography, color theory, animation, accessibility, and A/B testing.” (2018) </p>
 
 I then decided to look into UI design as it seems to appeal to me more as despite knowing a bit about coding I would prefer a more visual geared career.
 
+</p>
+<p>In summary I found this analysis very helpful in assessing the skills I possess and what I need to develop. I also got a good
+  idea what roles I could pursue with the skillset I currently have. Although I would be well suited to web development of UX design I 
+  would still like to consider other roles perhaps those that offer a variety in the work I would do. I realise that I may fear pursing a role such as creative director or art director as I 
+  doubt my ability to lead a team or overcome my fear of public speaking. I don't want tnhis fear to hold me back all my life and probably
+  the most important skill I would need to work on is this and hopefully it will no longer stand in my way.
+</p>
 
 
+<br>
 <h1>References:</h1>
 
 <p>UX Designer to UX / UI Designer: Skills You Need to Make the Leap 
  https://www.invisionapp.com/inside-design/ux-ui-designer/</p>
+ <p>Meet Leta Sobierajski — Passerbuys [online] (2020) [online], passerbuys.</p>
 
 
 
@@ -98,7 +197,7 @@ I then decided to look into UI design as it seems to appeal to me more as despit
       <nav>
         <ul>
           <li><a href="/roles"><button class="dropbtn2">Roles and Skills</button> </a></li>
-          <li><a href="/psa"><button class="dropbtn2">Professional Skills Audit</button> </a></li>
+          <li><a href="/psa"><button class="dropbtn2">Personal Skills Audit</button> </a></li>
           <li><a href="/diary"><button class="dropbtn2">Personal Development Plan</button> </a></li>
 
         </ul>
