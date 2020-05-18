@@ -37,7 +37,7 @@ def russia(request):
     return render(request, 'mainapp/russia.html')
 
 def psa(request):
-    return render(request, 'mainapp/psa.html')
+    return render(request, 'mainapp/Psa.html')
 
 def roles(request):
     return render(request, 'mainapp/roles.html')
