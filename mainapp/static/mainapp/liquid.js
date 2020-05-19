@@ -47,8 +47,8 @@ $(function() {const LiquidButton = class LiquidButton {
 	  this.svgText.setAttribute('x', '50%');
 	  this.svgText.setAttribute('y', '50%');
 	  this.svgText.setAttribute('dy', ~~(this.height / 8) + 'px');
-	  this.svgText.setAttribute('font-size', ~~(this.height / 3));
-	  this.svgText.style.fontFamily = 'sans-serif';
+	  this.svgText.setAttribute('font-size', ~~(this.height / 4));
+	  this.svgText.style.fontFamily = 'monospace';
 	  this.svgText.setAttribute('text-anchor', 'middle');
 	  this.svgText.setAttribute('pointer-events', 'none');
 	  this.svg.appendChild(this.svgText);
