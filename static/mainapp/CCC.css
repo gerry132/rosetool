@@ -338,7 +338,7 @@ footer{
   }
 
 .card{
-  height: 40%; 
+  height: 30%; 
   width: 55%;
   margin:7px;
   overflow: hidden;
@@ -411,6 +411,7 @@ footer{
   width: 50%;
   height: 100%;
   background-size: 100% 100%;
+  background-image: url(/static/mainapp/soup.jpg);
 
 }
 
