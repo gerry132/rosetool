@@ -3,14 +3,17 @@
     <head>
         {% load static %}
         <link rel="stylesheet" type="text/css" href="{% static 'mainapp/CCC.css' %}" />
+        <script src="{% static 'mainapp/test.js' %}"></script> 
+        
         <title>L'Appeal Du Vide</title>
         <meta charset="utf-8">
         <meta name="viewport" content ="width=device-width, initial-scale=1">
-    
-<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/dat-gui/0.6.4/dat.gui.min.js"></script>
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>    
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="{% static 'mainapp/liquid.js' %}"></script> 
 </head>
 
 
@@ -211,12 +214,46 @@
     <aside>
         <h2 >Links</h2>
         <nav>
-          <ul>
-            <li><a href="/roles"><button class="dropbtn2">Roles and Skills</button> </a></li>
-            <li><a href="/psa"><button class="dropbtn2">Personal Skills Audit</button> </a></li>
-            <li><a href="/diary"><button class="dropbtn2">Personal Development Plan</button> </a></li>
-
-          </ul>
+            <svg class="liquid-button"
+            data-text="Roles and Skills"
+            data-force-factor="0.1"
+            data-layer-1-viscosity="0.5"
+            data-layer-2-viscosity="0.4"
+            data-layer-1-mouse-force="400"
+            data-layer-2-mouse-force="500"
+            data-layer-1-force-limit="1"
+            data-layer-2-force-limit="2"
+            data-color1="#4DE7BF"
+            data-color2="#0A3FC7"
+            data-color3="#2A62F4"
+            onclick="window.location.href='/roles'"></svg>
+            <svg class="liquid-button"
+            data-text="Skills Audit"
+            data-force-factor="0.1"
+            data-layer-1-viscosity="0.5"
+            data-layer-2-viscosity="0.4"
+            data-layer-1-mouse-force="400"
+            data-layer-2-mouse-force="500"
+            data-layer-1-force-limit="1"
+            data-layer-2-force-limit="2"
+            data-color1="#4DE7BF"
+            data-color2="#0A3FC7"
+            data-color3="#2A62F4"
+            onclick="window.location.href='/psa'">
+            </svg>
+            <svg class="liquid-button"
+            data-text="Development Plan"
+            data-force-factor="0.1"
+            data-layer-1-viscosity="0.5"
+            data-layer-2-viscosity="0.4"
+            data-layer-1-mouse-force="400"
+            data-layer-2-mouse-force="500"
+            data-layer-1-force-limit="1"
+            data-layer-2-force-limit="2"
+            data-color1="#4DE7BF"
+            data-color2="#0A3FC7"
+            data-color3="#2A62F4"
+            onclick="window.location.href='/diary'"></svg>
       </nav>
       </aside>
 </Body>
