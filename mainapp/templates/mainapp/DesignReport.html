@@ -1,29 +1,37 @@
 <!DOCTYPE html>
 <html lang="eng">
-    <head>
-        {% load static %}
-        <link rel="stylesheet" type="text/css" href="{% static 'mainapp/CCC.css' %}" />
-        <title>L'Appeal Du Vide</title>
-        <meta charset="utf-8">
-        <meta name="viewport" content ="width=device-width, initial-scale=1">
-    
-<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+
+<head>
+    {% load static %}
+    <link rel="stylesheet" type="text/css" href="{% static 'mainapp/CCC.css' %}" />
+    <title>L'Appeal Du Vide</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
 </head>
 
 
-<ul id = "menu">
+<ul id="menu">
 
-    <li> <a href="/" ><button class="dropbtn">Home</button> </a></li>
-    <li><a href="/blog" ><button class="dropbtn">Design History</button> </a></li>  
+    <li> <a href="/"><button class="dropbtn">Home</button> </a></li>
+    <li><a href="/blog"><button class="dropbtn">Design History</button> </a></li>
 
-    <li> <a href="/personal_development"><button class="dropbtn">Professional Development</button> </a></li> 
+    <li> <a href="/personal_development"><button class="dropbtn">Professional Development</button> </a></li>
 
-      <li> <a href="/presentation"><button class="dropbtn">Presentation</button></a></li> 
-    
-    </ul>
+    <li> <a href="/presentation"><button class="dropbtn">Presentation</button></a></li>
+
+</ul>
 
 <body>
     <article>
@@ -31,173 +39,248 @@
         <h1>Design Report</h1>
 
         <H2 id="goals"> Introduction</H2>
-    
-        <p>April Greiman was one of the first designers to embrace computers as a graphic design tool and created iconic images that defined 
-            the 80's and 90's, "She has been called a pioneer in this regard, making it acceptable for a graphic designer 
-            to explore their craft using a computer." (Smith, 2009). At the time her designs and the methods she used were thought as being radical but it also 
+
+        <p>April Greiman was one of the first designers to embrace computers as a graphic design tool and created iconic
+            images that defined
+            the 80's and 90's, "She has been called a pioneer in this regard, making it acceptable for a graphic
+            designer
+            to explore their craft using a computer." (Smith, 2009). At the time her designs and the methods she used
+            were thought as being radical but it also
             earned her great acclaim, designer Massimo Vignelli said that she was
-            “by far the most daring and meaningfully experimental graphic designers in the world, 
+            “by far the most daring and meaningfully experimental graphic designers in the world,
             her work is extremely intellectual and extremely emotional at the same time.” (Whiteson, 1988)
         </p>
         <figure>
-            <img src = "/static/mainapp/19898.jpg" style="display: block; width:50%; height:50%; margin-left: 20%; ">
-            <figcaption style= "font-style: italic; font-size: smaller;margin-left: 10%;">Fig 1: I-d magazine art issue and April Greiman with Jayme Odgers, Wet magazine cover, 1979</figcaption></figure>
-            
-    
+            <img src="/static/mainapp/19898.jpg" style="display: block; width:50%; height:50%; margin-left: 20%; ">
+            <figcaption style="font-style: italic; font-size: smaller;margin-left: 10%;">Fig 1: I-d magazine art issue
+                and April Greiman with Jayme Odgers, Wet magazine cover, 1979</figcaption>
+        </figure>
+
+
         <H2 id="goals"> Early Life</H2>
-    
-        <p>Born in 1948 in New York city April had a creative mind from a young age. Her father was of the earliest computer programmers and was 
-            introduced to technology as a child. She attended Kansas City Art Institute an 
-            upon graduating decided to further her studies at the prestigious 
-            Basel School of Design in Switzerland. She moved to Los Angeles and it was there that she established herself as an
-            ground-breaking artist that changed the landscape of design forever. 
+
+        <p>Born in 1948 in New York city April had a creative mind from a young age. Her father was of the earliest
+            computer programmers and was
+            introduced to technology as a child. She attended Kansas City Art Institute an
+            upon graduating decided to further her studies at the prestigious
+            Basel School of Design in Switzerland. She moved to Los Angeles and it was there that she established
+            herself as an
+            ground-breaking artist that changed the landscape of design forever.
         </p>
 
-            <H2 id="goals"> Cultural Context</H2>
-            <p>The MAC computer was released in 1984 and with it came software tools that offered graphic capabilities. April Greiman began 
-                to use this then new technology to create innovative pieces of art that were never before seen. The Mac then came with a bitmap
-                editor known as MacPaint, a vector based graphics program called MacDraw, and a word-processor called MacWrite. With her 
-                training in graphic design from the Basel school in Switzerland and the techniques she picked up from the Swiss style and 
-                Weingart's radical New Wave style she used the new technologies introduced by MAC to create her own distinctive style.
-                 
-                The first major piece she created was a fold out poster for Design Quarterly titled 'Does it make sense?'. The fold out sent 
-                out shock waves in the design community many were aghast at the usage of technology to create a graphic piece to be 
-                featured in a well-known magazine.
-            
-            </p>
+        <H2 id="goals"> Cultural Context</H2>
+        <p>The MAC computer was released in 1984 and with it came software tools that offered graphic capabilities.
+            April Greiman began
+            to use this then new technology to create innovative pieces of art that were never before seen. The Mac then
+            came with a bitmap
+            editor known as MacPaint, a vector based graphics program called MacDraw, and a word-processor called
+            MacWrite. With her
+            training in graphic design from the Basel school in Switzerland and the techniques she picked up from the
+            Swiss style and
+            Weingart's radical New Wave style she used the new technologies introduced by MAC to create her own
+            distinctive style.
 
-            <p style = "font-style: italic; margin-left: 10%; margin-right:20%;">“The people--mainly other designers--who were threatened by my innovations were the most bitter. 
-                But these criticisms, by forcing me to articulate my ideas, only served to sharpen my style.” ("A Designing Woman With Radical Ideas : April Greiman Says Her Graphics Style Is 'an Experiment in Creating "Hybrid Imagery" '" 2020)</p>
+            The first major piece she created was a fold out poster for Design Quarterly titled 'Does it make sense?'.
+            The fold out sent
+            out shock waves in the design community many were aghast at the usage of technology to create a graphic
+            piece to be
+            featured in a well-known magazine.
 
-            <figure>
-                <img src = "/static/mainapp/makesense.jpg" style="display: block; width:50%; height:50%; margin-left: 20%; ">
-                <figcaption style= "font-style: italic; font-size: smaller;margin-left: 20%;">Fig 2: Does this make sense by April Greiman (1986)</figcaption></figure>
-                
-              <p>The two page spread was 6 feet long and was a life size digital portrait and created using the forementioned programs on the Mac computer 
-                  and had to print in seperate segments with each segment taking the whole night to complete. She would often send it to print before 
-                she left the studio to have it ready for the next day. Her intention behind this piece was to offer an view of what technology was 
-                capabile of and as she stated was inspired by the notion by philiosopher Ludwig Wittgenstein “If you give it a sense, it makes sense.” 
-                 (Ocegueda 2020)
-
-              </p> 
-
-       <p style = "font-style: italic; margin-left: 10%; margin-right: 10%;">"Using my professional video equipment and new software and hardware from Apple I composed a full-sized portrait 
-                of myself and handed off to the printer a stack of dot-matrix printed paper with a low resolution, 512k image. 
-                It was both terrifying and exhilarating. 
-                Learning something new in technology and exposing myself personally to demonstrate a transmedia idea."  ("Neshan 27: Face to Face/ Made in Space; An Interview with April Greiman/ Majid Abbasi" 2020)</p>
-              
-             <p> Her process was very complex and included a variety of mediums. An example of her process is laid out in the creation of the Modern Poster for the MOMA 
-              museum in New York. Firstly she would create a background using video images and transfering the image to the computer using 
-              the Mac paintbox tool. Secondly she would add sketches, photographs and textures. Lastly "This “layered” image is laser scanned to magnify the light-point pixels that make up the computer image. 
-Each magnified pixel thus becomes a unique and separate geometry of tones and colors." (WHITESON, 1988). 
-In the finished piece elements of her Swiss Style trainning can be seen such as the use of a grid layout and skewed perspectives.
-</p>
-
- 
-
- <figure style = "Float:left; width: 50%; height:50%">
-                    <img src = "/static/mainapp/modern.jpg" style="display: block; width:50%; height:50%; margin-left: 20%; ">
-                    <figcaption style= "font-style: italic; font-size: smaller;margin-left: 20%;">Fig 3:The Modern Poster, The Museum of Modern Art, New York 1988 </figcaption></figure>
-                    
-                    <figure style = "Float:left; width: 50%; height:50%"></figure>
-                        <img src = "/static/mainapp/jose.jpg" style="display: block; width:50%; height:50%; margin-left: 20%; ">
-                        <figcaption style= "font-style: italic; font-size: smaller;margin-left: 50%;">Fig 4:Josef Müller-Brockmann - Beethoven </figcaption></figure>
-                        
-<br>
-    <p>However by far her greatest influence came form her mentor and teacher Wolfgang Weingart who worked at the Basel school of art.</p>
-           
-    <h2 id = "goals">Style</h2>
-    <p>Much of April Greimans work as been informed by her education at the Basel school of design in Switzerland. Her 
-        work contains elements of the Swiss style but most notably it is heavily inspired by her mentor Wolfgang Weingart. Wolfgang 
-        Weingart is credited as being the originator of the style, it was intended to break on conventions of design practice and 
-        because of its non-conformist leanings it is heavily associated with the punk movement of the 70's. Like punk it was seen 
-        as a rejection of modernist values.
-    </p>
-    <p style = "font-style: italic; margin-left: 20%;">As traditional attitudes came to be considered outdated, 
-        society rebelled against the mainstream and demanded change. (Hyndman, 2019)</p>
-
-    <figure style = "Float:left; width: 60%; height:60%">
-        <img src = "/static/mainapp/punk.jpeg" style="display: block; width:50%; height:50%; margin-left: 20%; ">
-        <figcaption style= "font-style: italic; font-size: smaller;margin-left: 20%;">Fig 5:Sex Pistols album </figcaption></figure>
-      <p>The new wave style is characterized by alternating sizes such as letting of differing size, font, spacing or width.
-          Punk and the new wave movement promoted the ethos of DIY design and this is the main reason that April Greiman embraced 
-          new computer technologies as it allowed her to have direct access to typefaces as previously graphic designers needed 
-          to commission a typesetter to create the type giving them little visibility in the process.(Hyndman, 2019). Greiman also 
-          used various mediums to create her work such as photographs, textures and sketches very much echoing the DIY aesthetic of Punk.
-          Greiman was also a fan of using geometic shapes in her work playing with their perspectives to give the illusion of a 3-Dimensional 
-          object in a 2-Dimensional space.
-      </p>  
-      <figure style = "width: 70%; height:70%">
-        <img src = "/static/mainapp/calarts.jpg" style="display: block; width:90%; height:90%; margin-left: 20%; ">
-        <figcaption style= "font-style: italic; font-size: smaller;margin-left: 20%;">Fig 6: April Greiman and Jane Odgers 1979 Poster for California Institute of the Arts </figcaption></figure>
-      
-    
-    
-      <h2 id="goals">Impact on Graphic Design</h2>
-        <p>There are many contempoary artists that have emulated this style for example Irish designer Aoife Dunne. Like April Greiman she
-            uses computer generated graphics that are reminiscent many of her designs she is quoted as saying "I always saw technology as my paintbrush."
         </p>
 
-        <figure style = "Float:left; width: 80%; height:80%">
-            <img src = "/static/mainapp/aoife.jpg" style="display: block; width:90%; height:90%; margin-left: 20%; ">
-            <figcaption style= "font-style: italic; font-size: smaller;margin-left: 20%;">Fig 7: Tranzemorex | Aoife Dunne at EP7 Gallery, Paris</figcaption></figure>
-         
-            <p style="clear:both  ;">The use of computer graphics and the varied use of colour, pattern and texture is quite reminiscent of April Greimans work. Aoife Dunne creates 
-              an interactive sensory experince through her work. Like Greiman she is multidisciplinary but takes Greimans work even 
-              further by creating her own websites and animations. She describes her style as post-pop or post-internet which are movements that 
-              takes cues from 90's and early 2000's internet culture.
-          </p>
-          <p>Being very adapt at creating graphics she created an installation called Limitless which is an immersive video game world infused 
-              with trippy graphics. In the video there are many elements that are inspired by the new wave style such as varying font sizes and 
-              dense patterns.
-          </p>
+        <p style="font-style: italic; margin-left: 10%; margin-right:20%;">“The people--mainly other designers--who were
+            threatened by my innovations were the most bitter.
+            But these criticisms, by forcing me to articulate my ideas, only served to sharpen my style.” ("A Designing
+            Woman With Radical Ideas : April Greiman Says Her Graphics Style Is 'an Experiment in Creating "Hybrid
+            Imagery" '" 2020)</p>
 
-          <iframe src="https://player.vimeo.com/video/173543163" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
-<p><a href="https://vimeo.com/173543163">LIMITLESS - AOIFE DUNNE</a> from <a href="https://vimeo.com/aoifedunneartist">AOIFE DUNNE ダン</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
-    
-<p style  = "clear: both;">Here is another example of her work:</p>
-    <img src="/static/mainapp/mag.jpg" style="display:block; margin: 0 auto; width:70%; height:70%" alt="alt text">
-  <p></p>
+        <figure>
+            <img src="/static/mainapp/makesense.jpg" style="display: block; width:50%; height:50%; margin-left: 20%; ">
+            <figcaption style="font-style: italic; font-size: smaller;margin-left: 20%;">Fig 2: Does this make sense by
+                April Greiman (1986)</figcaption>
+        </figure>
 
-    <H2 id="goals"> Conclusion</H2>
-    <p>Advances in technology informed a lot of April Greimans work in the 80's, the introduction of the personal computer and 
-        graphic capabilities allowed her to create a whole new style and helped normalise the use of technology in 
-        Graphic Design so what does the future hold for graphic design, how will technology chnage? </p>
+        <p>The two page spread was 6 feet long and was a life size digital portrait and created using the forementioned
+            programs on the Mac computer
+            and had to print in seperate segments with each segment taking the whole night to complete. She would often
+            send it to print before
+            she left the studio to have it ready for the next day. Her intention behind this piece was to offer an view
+            of what technology was
+            capabile of and as she stated was inspired by the notion by philiosopher Ludwig Wittgenstein “If you give it
+            a sense, it makes sense.”
+            (Ocegueda 2020)
 
-        <p>We are witnessing a great paradigm shift in regards to graphic design in use, we are creating a greater distance 
+        </p>
+
+        <p style="font-style: italic; margin-left: 10%; margin-right: 10%;">"Using my professional video equipment and
+            new software and hardware from Apple I composed a full-sized portrait
+            of myself and handed off to the printer a stack of dot-matrix printed paper with a low resolution, 512k
+            image.
+            It was both terrifying and exhilarating.
+            Learning something new in technology and exposing myself personally to demonstrate a transmedia idea."
+            ("Neshan 27: Face to Face/ Made in Space; An Interview with April Greiman/ Majid Abbasi" 2020)</p>
+
+        <p> Her process was very complex and included a variety of mediums. An example of her process is laid out in the
+            creation of the Modern Poster for the MOMA
+            museum in New York. Firstly she would create a background using video images and transfering the image to
+            the computer using
+            the Mac paintbox tool. Secondly she would add sketches, photographs and textures. Lastly "This “layered”
+            image is laser scanned to magnify the light-point pixels that make up the computer image.
+            Each magnified pixel thus becomes a unique and separate geometry of tones and colors." (WHITESON, 1988).
+            In the finished piece elements of her Swiss Style trainning can be seen such as the use of a grid layout and
+            skewed perspectives.
+        </p>
+
+
+
+        <figure style="Float:left; width: 50%; height:50%">
+            <img src="/static/mainapp/modern.jpg" style="display: block; width:50%; height:50%; margin-left: 20%; ">
+            <figcaption style="font-style: italic; font-size: smaller;margin-left: 20%;">Fig 3:The Modern Poster, The
+                Museum of Modern Art, New York 1988 </figcaption>
+        </figure>
+
+        <figure style="Float:left; width: 50%; height:50%"></figure>
+        <img src="/static/mainapp/jose.jpg" style="display: block; width:50%; height:50%; margin-left: 20%; ">
+        <figcaption style="font-style: italic; font-size: smaller;margin-left: 50%;">Fig 4:Josef Müller-Brockmann -
+            Beethoven </figcaption>
+        </figure>
+
+        <br>
+        <p>However by far her greatest influence came form her mentor and teacher Wolfgang Weingart who worked at the
+            Basel school of art.</p>
+
+        <h2 id="goals">Style</h2>
+        <p>Much of April Greimans work as been informed by her education at the Basel school of design in Switzerland.
+            Her
+            work contains elements of the Swiss style but most notably it is heavily inspired by her mentor Wolfgang
+            Weingart. Wolfgang
+            Weingart is credited as being the originator of the style, it was intended to break on conventions of design
+            practice and
+            because of its non-conformist leanings it is heavily associated with the punk movement of the 70's. Like
+            punk it was seen
+            as a rejection of modernist values.
+        </p>
+        <p style="font-style: italic; margin-left: 20%;">As traditional attitudes came to be considered outdated,
+            society rebelled against the mainstream and demanded change. (Hyndman, 2019)</p>
+
+        <figure style="Float:left; width: 60%; height:60%">
+            <img src="/static/mainapp/punk.jpeg" style="display: block; width:50%; height:50%; margin-left: 20%; ">
+            <figcaption style="font-style: italic; font-size: smaller;margin-left: 20%;">Fig 5:Sex Pistols album
+            </figcaption>
+        </figure>
+        <p>The new wave style is characterized by alternating sizes such as letting of differing size, font, spacing or
+            width.
+            Punk and the new wave movement promoted the ethos of DIY design and this is the main reason that April
+            Greiman embraced
+            new computer technologies as it allowed her to have direct access to typefaces as previously graphic
+            designers needed
+            to commission a typesetter to create the type giving them little visibility in the process.(Hyndman, 2019).
+            Greiman also
+            used various mediums to create her work such as photographs, textures and sketches very much echoing the DIY
+            aesthetic of Punk.
+            Greiman was also a fan of using geometic shapes in her work playing with their perspectives to give the
+            illusion of a 3-Dimensional
+            object in a 2-Dimensional space.
+        </p>
+        <figure style="width: 70%; height:70%">
+            <img src="/static/mainapp/calarts.jpg" style="display: block; width:90%; height:90%; margin-left: 20%; ">
+            <figcaption style="font-style: italic; font-size: smaller;margin-left: 20%;">Fig 6: April Greiman and Jane
+                Odgers 1979 Poster for California Institute of the Arts </figcaption>
+        </figure>
+
+
+
+        <h2 id="goals">Impact on Graphic Design</h2>
+        <p>There are many contempoary artists that have emulated this style for example Irish designer Aoife Dunne. Like
+            April Greiman she
+            uses computer generated graphics that are reminiscent many of her designs she is quoted as saying "I always
+            saw technology as my paintbrush."
+        </p>
+
+        <figure style="Float:left; width: 80%; height:80%">
+            <img src="/static/mainapp/aoife.jpg" style="display: block; width:90%; height:90%; margin-left: 20%; ">
+            <figcaption style="font-style: italic; font-size: smaller;margin-left: 20%;">Fig 7: Tranzemorex | Aoife
+                Dunne at EP7 Gallery, Paris</figcaption>
+        </figure>
+
+        <p style="clear:both  ;">The use of computer graphics and the varied use of colour, pattern and texture is quite
+            reminiscent of April Greimans work. Aoife Dunne creates
+            an interactive sensory experince through her work. Like Greiman she is multidisciplinary but takes Greimans
+            work even
+            further by creating her own websites and animations. She describes her style as post-pop or post-internet
+            which are movements that
+            takes cues from 90's and early 2000's internet culture.
+        </p>
+        <p>Being very adapt at creating graphics she created an installation called Limitless which is an immersive
+            video game world infused
+            with trippy graphics. In the video there are many elements that are inspired by the new wave style such as
+            varying font sizes and
+            dense patterns.
+        </p>
+
+        <iframe src="https://player.vimeo.com/video/173543163" width="640" height="360" frameborder="0"
+            allow="autoplay; fullscreen" allowfullscreen></iframe>
+        <p><a href="https://vimeo.com/173543163">LIMITLESS - AOIFE DUNNE</a> from <a
+                href="https://vimeo.com/aoifedunneartist">AOIFE DUNNE ダン</a> on <a href="https://vimeo.com">Vimeo</a>.
+        </p>
+
+        <p style="clear: both;">Here is another example of her work:</p>
+        <img src="/static/mainapp/mag.jpg" style="display:block; margin: 0 auto; width:70%; height:70%" alt="alt text">
+        <p></p>
+
+        <H2 id="goals"> Conclusion</H2>
+        <p>Advances in technology informed a lot of April Greimans work in the 80's, the introduction of the personal
+            computer and
+            graphic capabilities allowed her to create a whole new style and helped normalise the use of technology in
+            Graphic Design so what does the future hold for graphic design, how will technology chnage? </p>
+
+        <p>We are witnessing a great paradigm shift in regards to graphic design in use, we are creating a greater
+            distance
             with design and traditonal methods mainly print even now graphic design is highly dependent on technology.
-            3D technology and augmented reality will most certainly be something graphic designers be working with. 
-        Augmented reality defined as "a view of the real, physical world in which elements are enhanced by computer-generated input" and this 
-        means graphic designers will start to create things that are not confined to a page or screen but be integrated with the users everyday 
-        reality.
+            3D technology and augmented reality will most certainly be something graphic designers be working with.
+            Augmented reality defined as "a view of the real, physical world in which elements are enhanced by
+            computer-generated input" and this
+            means graphic designers will start to create things that are not confined to a page or screen but be
+            integrated with the users everyday
+            reality.
         </p>
 
-        <p>Its strange to think that not that long ago the thought of using a computer to genreate art was thought as 
-            being akin to heresy. For every graphic artist a computer is an essential part of their work and to some it is their work. April 
-            Greiman was able to give us a hint at the possibilites technology held for the evolution of design in a sense she open the door. 
+        <p>Its strange to think that not that long ago the thought of using a computer to genreate art was thought as
+            being akin to heresy. For every graphic artist a computer is an essential part of their work and to some it
+            is their work. April
+            Greiman was able to give us a hint at the possibilites technology held for the evolution of design in a
+            sense she open the door.
         </p>
 
-    
-    
-    
+
+
+
         <h1>References</h1>
-       
-        <p>Ocegueda, B. (2020) April Greiman- Design Quarterly 133 | GD 203 [online], Go.distance.ncsu.edu, available: https://go.distance.ncsu.edu/gd203/?p=24570 [accessed 25 May 2020].</p>
-      <p>WHITESON, E. (1988) A Designing Woman With Radical Ideas : April Greiman Says Her Graphics Style Is 'An Experiment In Creating "Hybrid Imagery" ' [online] (2020) [online], Los Angeles Times.</p>
-      <p>How Punk Changed Graphic Design And Is History Repeating Itself? [online] (2020) [online], Medium.</p>
-     <p>Neshan 27: Face To Face/ Made In Space; An Interview With April Greiman/ Majid Abbasi [online] (2020) [online], Neshanmagazine.com.</p>
 
-    
-      <h1>Image Credits</h1>
-      <p>Figure 1: 25 Most Famous Graphic Designers And Why - Designer Task [online] (2020) [online], Designer Task.</p>
-      <p>Figure 2: Forgotten Superheroes Of Design: Does It Make Sense, 1986, April Greiman [online] (2020) [online], Documenting Design.</p>
-    <p>Figure 3: April Greiman. The Modern Poster, The Museum Of Modern Art, New York. 1988 | Moma [online] (2020) [online], The Museum of Modern Art.</p>
-    <p>Figure 4: A Major Influence In My Work: Josef Müller-Brockmann [online] (2020) [online], Jeshanies.blogspot.com.</p>
-    <p>Figure 5: The New Wave Type [online] (2020) [online], The New Wave Type.</p>
-    <p>Figure 6:https://collection.cooperhewitt.org/objects/18617589/</p>
-    <p>Figure 7: https://visualartists.ie/events/tranzemorex-aoife-dunne-at-ep7-gallery-paris/</p>
-    <p>Figure 8: http://www.austeremag.com/aoife-dunne-is-keeping-the-internet-weird/</p>
-        </article>
-    
+        <p>Ocegueda, B. (2020) April Greiman- Design Quarterly 133 | GD 203 [online], Go.distance.ncsu.edu, available:
+            https://go.distance.ncsu.edu/gd203/?p=24570 [accessed 25 May 2020].</p>
+        <p>WHITESON, E. (1988) A Designing Woman With Radical Ideas : April Greiman Says Her Graphics Style Is 'An
+            Experiment In Creating "Hybrid Imagery" ' [online] (2020) [online], Los Angeles Times.</p>
+        <p>How Punk Changed Graphic Design And Is History Repeating Itself? [online] (2020) [online], Medium.</p>
+        <p>Neshan 27: Face To Face/ Made In Space; An Interview With April Greiman/ Majid Abbasi [online] (2020)
+            [online], Neshanmagazine.com.</p>
+
+
+        <h1>Image Credits</h1>
+        <p>Figure 1: 25 Most Famous Graphic Designers And Why - Designer Task [online] (2020) [online], Designer Task.
+        </p>
+        <p>Figure 2: Forgotten Superheroes Of Design: Does It Make Sense, 1986, April Greiman [online] (2020) [online],
+            Documenting Design.</p>
+        <p>Figure 3: April Greiman. The Modern Poster, The Museum Of Modern Art, New York. 1988 | Moma [online] (2020)
+            [online], The Museum of Modern Art.</p>
+        <p>Figure 4: A Major Influence In My Work: Josef Müller-Brockmann [online] (2020) [online],
+            Jeshanies.blogspot.com.</p>
+        <p>Figure 5: The New Wave Type [online] (2020) [online], The New Wave Type.</p>
+        <p>Figure 6:https://collection.cooperhewitt.org/objects/18617589/</p>
+        <p>Figure 7: https://visualartists.ie/events/tranzemorex-aoife-dunne-at-ep7-gallery-paris/</p>
+        <p>Figure 8: http://www.austeremag.com/aoife-dunne-is-keeping-the-internet-weird/</p>
+    </article>
+
 </body>
+
 </html>
